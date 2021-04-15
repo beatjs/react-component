@@ -1,0 +1,37 @@
+{
+  "name": "react-component",
+  "title": "React Component",
+  "version": "1.0.0",
+  "description": "Tool to create a React Native library with a command-line interface",
+  "main": "index.js",
+  "scripts": {
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/account/ReactComponent.git",
+    "baseUrl": "https://github.com/account/ReactComponent"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
+  "license": "MIT License",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    
+    "react": "16.13.1",
+    "react-native": "^0.63.4"
+  },
+  "devDependencies": {
+    
+    "react": "16.13.1",
+    "react-native": "^0.63.4"
+  }
+}

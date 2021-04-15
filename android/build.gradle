@@ -1,0 +1,53 @@
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.2'
+    }
+
+    // The Android Gradle plugin is only required when opening the android folder stand-alone.
+    // This avoids unnecessary downloads and potential conflicts when the library is included as a
+    // module dependency in an application project.
+    if (project == rootProject) {
+        repositories {
+            google()
+            jcenter()
+        }
+        def buildGradleVersion = ext.has('buildGradlePluginVersion') ? ext.get('buildGradlePluginVersion') : '4.1.2'
+  
+        dependencies {
+            classpath "com.android.tools.build:gradle:$buildGradleVersion"
+        }
+    }
+}
+  
+apply plugin: 'com.android.library'
+  
+android {
+    compileSdkVersion 30
+      
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+       warning 'InvalidPackage', 'MissingPermission'
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    compileOptions {
+      sourceCompatibility JavaVersion.VERSION_1_8
+      targetCompatibility JavaVersion.VERSION_1_8
+  }
+}
+  
+repositories {
+    google()
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+  
+dependencies {
+    implementation 'com.github.beatjs:react-android:0.63.4.+'
+}
