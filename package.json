@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/account/ReactComponent.git",
-    "baseUrl": "https://github.com/account/ReactComponent"
+    "url": "git+https://github.com/beatjs/react-component.git",
+    "baseUrl": "https://github.com/beatjs/react-component"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Liam Xu",
+    "email": "liamxujia@outlook.com"
   },
   "license": "MIT License",
   "licenseFilename": "LICENSE",
