@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   "ios/lottie-react-native/**/*.{h,m,swift}",
   "ios/react-native-get-random-values/**/*.{h,m}",
   "ios/react-native-image-resizer/**/*.{h,m}",
+  "ios/react-native-safe-area-context/**/*.{h,m}",
   "ios/react-native-video/**/*.{h,m}",
   "ios/react-native-webview/**/*.{h,m}",
   "ios/RNCMaskedView/**/*.{h,m}",
