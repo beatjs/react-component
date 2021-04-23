@@ -4,6 +4,6 @@ platform :ios, '11.0'
 use_frameworks!
 
 target 'ReactComponent' do
-	pod 'react-component', :path => './'
+	pod 'react-component', :path => '../'
 end
 

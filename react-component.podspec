@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "0.0.4"
+  s.version = "0.0.5"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
@@ -15,23 +15,23 @@ Pod::Spec.new do |s|
 
   s.swift_version = '5.0'
 
-  s.resource_bundle = { "FontsResources" => ["RNVectorIcons/Fonts/*.ttf"]}
+  s.resource_bundle = { "FontsResources" => ["ios/RNVectorIcons/Fonts/*.ttf"]}
 
   s.source_files = 
-  "ReactComponent/**/*.{h,m}",
-  "lottie-react-native/**/*.{h,m,swift}",
-  "react-native-get-random-values/**/*.{h,m,swift}",
-  "react-native-image-resizer/**/*.{h,m}",
-  "react-native-video/**/*.{h,m}",
-  "react-native-webview/**/*.{h,m}",
-  "RNCMaskedView/**/*.{h,m}",
-  "RNDeviceInfo/**/*.{h,m}",
-  "RNFastImage/**/*.{h,m}",
-  "RNGestureHandler/**/*.{h,m}",
-  "RNReanimated/**/*.{h,m}",
-  "RNScreens/**/*.{h,m}",
-  "RNSentry/**/*.{h,m}",
-  "RNVectorIcons/**/*.{h,m}"
+  "ios/ReactComponent/**/*.{h,m}",
+  "ios/lottie-react-native/**/*.{h,m,swift}",
+  "ios/react-native-get-random-values/**/*.{h,m}",
+  "ios/react-native-image-resizer/**/*.{h,m}",
+  "ios/react-native-video/**/*.{h,m}",
+  "ios/react-native-webview/**/*.{h,m}",
+  "ios/RNCMaskedView/**/*.{h,m}",
+  "ios/RNDeviceInfo/**/*.{h,m}",
+  "ios/RNFastImage/**/*.{h,m}",
+  "ios/RNGestureHandler/**/*.{h,m}",
+  "ios/RNReanimated/**/*.{h,m}",
+  "ios/RNScreens/**/*.{h,m}",
+  "ios/RNSentry/**/*.{h,m}",
+  "ios/RNVectorIcons/**/*.{h,m}"
 
   s.dependency "react-ios", "~> 0.63.4.0"
   s.dependency 'lottie-ios', '~> 3.1.8'

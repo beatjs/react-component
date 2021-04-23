@@ -13,7 +13,7 @@ PODS:
     - libwebp/demux
   - libwebp/webp (1.2.0)
   - lottie-ios (3.1.9)
-  - react-component (0.0.3):
+  - react-component (0.0.4):
     - DVAssetLoaderDelegate (~> 0.3.1)
     - lottie-ios (~> 3.1.8)
     - react-ios (~> 0.63.4.0)
@@ -123,7 +123,7 @@ PODS:
   - Yoga (1.14.0)
 
 DEPENDENCIES:
-  - react-component (from `./`)
+  - react-component (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -142,7 +142,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   react-component:
-    :path: "./"
+    :path: "../"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
@@ -151,7 +151,7 @@ SPEC CHECKSUMS:
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
-  react-component: 6858e32c0165b8e36cb73608a435b0af9eac68e6
+  react-component: 5ded4a3942f9b1f03942a5ce0beae896e14aa3cd
   react-ios: a25cc4b54d365fe466a430aec8a8c4ec4a0b5ce0
   SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
   SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
@@ -159,6 +159,6 @@ SPEC CHECKSUMS:
   SPTPersistentCache: df36ea46762d7cf026502bbb86a8b79d0080dff4
   Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
 
-PODFILE CHECKSUM: b3a1035d3f6925df70940dc739fea4319106511f
+PODFILE CHECKSUM: e542c4c97f5c89d4d1e8da4f22d911e4f9a75a39
 
 COCOAPODS: 1.10.1
