@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = '5.0'
 
-  s.resources = "RNVectorIcons/Fonts/*.ttf"
+  s.resource_bundle = { "FontsResources" => ["RNVectorIcons/Fonts/*.ttf"]}
 
   s.source_files = 
   "ReactComponent/**/*.{h,m}",

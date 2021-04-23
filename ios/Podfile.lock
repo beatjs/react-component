@@ -13,7 +13,7 @@ PODS:
     - libwebp/demux
   - libwebp/webp (1.2.0)
   - lottie-ios (3.1.9)
-  - react-component (0.0.2):
+  - react-component (0.0.3):
     - DVAssetLoaderDelegate (~> 0.3.1)
     - lottie-ios (~> 3.1.8)
     - react-ios (~> 0.63.4.0)
@@ -151,7 +151,7 @@ SPEC CHECKSUMS:
   glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
   libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
-  react-component: d4a7033af8fd55a520c908c50e9322dee946dce1
+  react-component: 6858e32c0165b8e36cb73608a435b0af9eac68e6
   react-ios: a25cc4b54d365fe466a430aec8a8c4ec4a0b5ce0
   SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
   SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
