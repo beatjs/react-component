@@ -1,14 +1,14 @@
 
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
 	"Introduce this library for your App, development by react-native code."
 	DESC
   s.homepage = "https://github.com/beatjs/react-component"
-	s.license = { :type => "MIT", :file => "LICENSE" }
+	s.license = { :type => "MIT" }
   s.author = { "Liam Xu" => "liamxujia@outlook.com" }
 	s.platforms = { :ios => "11.0" }
   s.source = { :git => "https://github.com/beatjs/react-component.git", :tag => s.version.to_s }
