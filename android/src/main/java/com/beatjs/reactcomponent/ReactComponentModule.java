@@ -1,4 +1,4 @@
-package com.beatjs.react;
+package com.beatjs.reactcomponent;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
