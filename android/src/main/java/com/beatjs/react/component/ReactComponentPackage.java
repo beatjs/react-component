@@ -1,4 +1,4 @@
-package com.beatjs.reactcomponent;
+package com.beatjs.react.component;
 
 import java.util.Arrays;
 import java.util.Collections;
