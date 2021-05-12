@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "1.0.2"
+  s.version = "1.0.3"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
