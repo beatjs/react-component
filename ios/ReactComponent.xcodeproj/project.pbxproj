@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		97345141C215BE36BD10E94F /* Pods_ReactComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8935E845B3FC639144C82D /* Pods_ReactComponent.framework */; };
-		B3E7B5881CC2AC0600A0062D /* RCTReactComponentModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B59C3A5D26253EA800023194 /* RCTReactComponentModule.h */; };
-		B3E7B5891CC2AC0600A0062D /* RCTReactComponentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B59C3A5E26253EA800023194 /* RCTReactComponentModule.m */; };
-		B59C3A44262474C000023194 /* ReactComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B59C3A42262474C000023194 /* ReactComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B5D816264D0391008BC86C /* ReactComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = B59C3A42262474C000023194 /* ReactComponent.h */; };
+		B5B5D818264D0393008BC86C /* RCTReactComponentModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B59C3A5D26253EA800023194 /* RCTReactComponentModule.h */; };
+		B5B5D81A264D0395008BC86C /* RCTReactComponentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B59C3A5E26253EA800023194 /* RCTReactComponentModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,6 @@
 				830B67C22E860370B1DC767A /* Pods-ReactComponent.debug.xcconfig */,
 				63512F2AE9454F43F5FDD331 /* Pods-ReactComponent.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -90,8 +89,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B5881CC2AC0600A0062D /* RCTReactComponentModule.h in Headers */,
-				B59C3A44262474C000023194 /* ReactComponent.h in Headers */,
+				B5B5D818264D0393008BC86C /* RCTReactComponentModule.h in Headers */,
+				B5B5D816264D0391008BC86C /* ReactComponent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B5891CC2AC0600A0062D /* RCTReactComponentModule.m in Sources */,
+				B5B5D81A264D0395008BC86C /* RCTReactComponentModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

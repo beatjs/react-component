@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "1.0.3"
+  s.version = "1.1.0"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
@@ -14,16 +14,26 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/beatjs/react-component.git", :tag => s.version.to_s }
   s.header_dir = 'ReactComponent'
   s.swift_version = '5.0'
-  s.resource_bundle = { "FontsResources" => 
-  ["ios/ReactComponent/RNVectorIcons/Fonts/*.ttf"]
-  }
+  
   s.ios.deployment_target = "11.0"
   s.pod_target_xcconfig = {
     "DEFINES_MODULE" => "YES"
   }
-  s.default_subspec = "All"
+
+  s.default_subspec = "source"
   
-  s.subspec "All" do |ss|
+  s.subspec "framework" do |ss|
+    ss.vendored_frameworks = "ios/#{s.module_name}.xcframework"
+    ss.dependency "react-ios/framework", "~> 0.63.4.2"
+    ss.dependency 'Sentry', '~> 6.1.4'
+    ss.dependency 'SDWebImage', '~> 5.8'
+    ss.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
+    ss.dependency "SPTPersistentCache", "~> 1.1.0"
+    ss.dependency 'lottie-ios', '~> 3.1.8'
+    ss.dependency "DVAssetLoaderDelegate", "~> 0.3.1"
+  end
+
+  s.subspec "source" do |ss|
     ss.dependency "react-component/RNCMaskedView"
     ss.dependency "react-component/RNGestureHandler"
     ss.dependency "react-component/RNReanimated"
@@ -79,6 +89,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'RNVectorIcons' do |ss|
+    ss.resource_bundle = { "FontsResources" => 
+    ["ios/ReactComponent/RNVectorIcons/Fonts/*.ttf"]
+    }
     ss.source_files = 'ios/ReactComponent/RNVectorIcons/**/*.{h,m}'
     ss.dependency "react-ios", "~> 0.63.4.1"
   end
