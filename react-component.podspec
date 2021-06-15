@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "1.1.0"
+  s.version = "1.1.2"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
@@ -48,6 +48,7 @@ Pod::Spec.new do |s|
     ss.dependency "react-component/react-native-safe-area-context"
     ss.dependency "react-component/react-native-video"
     ss.dependency "react-component/react-native-webview"
+    ss.dependency "react-component/react-native-pager-view"
   end
 
   s.subspec 'RNCMaskedView' do |ss|
@@ -126,6 +127,11 @@ Pod::Spec.new do |s|
 
   s.subspec 'react-native-webview' do |ss|
     ss.source_files = 'ios/ReactComponent/react-native-webview/**/*.{h,m}'
+    ss.dependency "react-ios", "~> 0.63.4.1"
+  end
+
+  s.subspec 'react-native-pager-view' do |ss|
+    ss.source_files = 'ios/ReactComponent/react-native-pager-view/**/*.{h,m}'
     ss.dependency "react-ios", "~> 0.63.4.1"
   end
   
