@@ -1,5 +1,8 @@
 # react-component
 
+[![iOS CI](https://github.com/beatjs/react-component/actions/workflows/ios.yml/badge.svg?branch=main)](https://github.com/beatjs/react-component/actions/workflows/ios.yml)
+[![Adnroid CI](https://github.com/beatjs/react-component/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/beatjs/react-component/actions/workflows/android.yml)
+
 ## Getting started
 
 `$ npm install react-component --save`
