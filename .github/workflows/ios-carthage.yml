@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: CocoaPods Install 
-      run: pod install
+      run: npx pod-install
     - name: Carthage build
       run: carthage build --no-skip-current --use-xcframeworks
     - name: Commit files
