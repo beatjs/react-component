@@ -39,5 +39,5 @@ repositories {
 
 dependencies {
     implementation 'com.github.beatjs:react-android:0.63.4.+'
-    api 'io.sentry:sentry-android:4.3.0'
+    api 'io.sentry:sentry-android:4.3.+'
 }
