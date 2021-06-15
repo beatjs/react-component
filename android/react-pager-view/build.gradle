@@ -1,4 +1,25 @@
 apply plugin: "com.android.library"
+apply plugin: 'kotlin-android'
+
+buildscript {
+
+  def buildGradleVersion = ext.has('buildGradlePluginVersion') ? ext.get('buildGradlePluginVersion') : '4.1.2'
+  def kotlinVersion = ext.has('kotlinVersion') ? ext.get('kotlinVersion') : '1.3.50'
+
+  dependencies {
+    classpath "com.android.tools.build:gradle:$buildGradleVersion"
+  }
+
+  repositories {
+    mavenCentral()
+    google()
+  }
+
+  dependencies {
+    classpath "com.android.tools.build:gradle:$buildGradleVersion"
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+  }
+}
 
 def DEFAULT_COMPILE_SDK_VERSION = 30
 def DEFAULT_BUILD_TOOLS_VERSION = "30.0.3"
@@ -34,8 +55,7 @@ repositories {
 
 
 dependencies {
-  // noinspection GradleDynamicVersion
   implementation 'com.github.beatjs:react-android:0.63.4.+'
-  implementation "org.jetbrains.kotlin:kotlin-stdlib:1.3.+"
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:1.3.50"
   implementation 'androidx.viewpager2:viewpager2:1.0.0'
 }

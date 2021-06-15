@@ -1,6 +1,10 @@
 buildscript {
+
+    def buildGradleVersion = ext.has('buildGradlePluginVersion') ? ext.get('buildGradlePluginVersion') : '4.1.2'
+    def kotlinVersion = ext.has('kotlinVersion') ? ext.get('kotlinVersion') : '1.3.50'
+
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath "com.android.tools.build:gradle:$buildGradleVersion"
     }
 
     // The Android Gradle plugin is only required when opening the android folder stand-alone.
@@ -11,12 +15,10 @@ buildscript {
             mavenCentral()
             google()
         }
-        def buildGradleVersion = ext.has('buildGradlePluginVersion') ? ext.get('buildGradlePluginVersion') : '4.1.2'
-        ext.kotlin_version="1.3.50"
 
         dependencies {
             classpath "com.android.tools.build:gradle:$buildGradleVersion"
-            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
         }
     }
 }
