@@ -16,5 +16,7 @@ jobs:
       run: pod --version
     - name: Pod lib lint
       run: pod lib lint react-component.podspec --allow-warnings --verbose --no-clean
+    - name: Pod register
+      run: pod trunk register liamxujia@outlook.com 'liamxujia' --description='GitHub register to trunk.'
     - name: Pod trunk
       run: pod trunk push react-component.podspec --allow-warnings --verbose
