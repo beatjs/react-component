@@ -15,6 +15,7 @@
 #import "RNDeviceInfo.h"
 #import "DeviceUID.h"
 #import <DeviceCheck/DeviceCheck.h>
+#import "EnvironmentUtil.h"
 
 #if !(TARGET_OS_TV)
 #import <WebKit/WebKit.h>
@@ -111,7 +112,16 @@ RCT_EXPORT_MODULE();
 {
     switch ([[UIDevice currentDevice] userInterfaceIdiom]) {
         case UIUserInterfaceIdiomPhone: return DeviceTypeHandset;
-        case UIUserInterfaceIdiomPad: return TARGET_OS_MACCATALYST ? DeviceTypeDesktop : DeviceTypeTablet;
+        case UIUserInterfaceIdiomPad:
+            if (TARGET_OS_MACCATALYST) {
+                return DeviceTypeDesktop;
+            }
+            if (@available(iOS 14.0, *)) {
+                if ([NSProcessInfo processInfo].isiOSAppOnMac) {
+                    return DeviceTypeDesktop;
+                }
+            }
+            return DeviceTypeTablet;
         case UIUserInterfaceIdiomTV: return DeviceTypeTv;
         case UIUserInterfaceIdiomMac: return DeviceTypeDesktop;
         default: return DeviceTypeUnknown;
@@ -356,24 +366,19 @@ RCT_EXPORT_METHOD(syncUniqueId:(RCTPromiseResolveBlock)resolve rejecter:(RCTProm
     uname(&systemInfo);
     NSString* deviceId = [NSString stringWithCString:systemInfo.machine
                                             encoding:NSUTF8StringEncoding];
-    if ([deviceId isEqualToString:@"i386"] || [deviceId isEqualToString:@"x86_64"] ) {
+    #if TARGET_IPHONE_SIMULATOR
         deviceId = [NSString stringWithFormat:@"%s", getenv("SIMULATOR_MODEL_IDENTIFIER")];
-    }
+    #endif
     return deviceId;
 }
 
 
 - (BOOL) isEmulator {
-    struct utsname systemInfo;
-    uname(&systemInfo);
-    NSString* deviceId = [NSString stringWithCString:systemInfo.machine
-                                            encoding:NSUTF8StringEncoding];
-
-    if ([deviceId isEqualToString:@"i386"] || [deviceId isEqualToString:@"x86_64"] ) {
+    #if TARGET_IPHONE_SIMULATOR
         return YES;
-    } else {
+    #else
         return NO;
-    }
+    #endif
 }
 
 RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(isEmulatorSync) {
@@ -537,7 +542,9 @@ RCT_EXPORT_METHOD(getSupportedAbis:(RCTPromiseResolveBlock)resolve rejecter:(RCT
         // Loop through linked list of interfaces
         temp_addr = interfaces;
         while(temp_addr != NULL) {
-            if(temp_addr->ifa_addr->sa_family == AF_INET) {
+            sa_family_t addr_family = temp_addr->ifa_addr->sa_family;
+            // Check for IPv4 or IPv6-only interfaces
+            if(addr_family == AF_INET || addr_family == AF_INET6) {
                 NSString* ifname = [NSString stringWithUTF8String:temp_addr->ifa_name];
                     if(
                         // Check if interface is en0 which is the wifi connection the iPhone
@@ -546,8 +553,15 @@ RCT_EXPORT_METHOD(getSupportedAbis:(RCTPromiseResolveBlock)resolve rejecter:(RCT
                         // Check if interface is en1 which is the wifi connection on the Apple TV
                         [ifname isEqualToString:@"en1"]
                     ) {
-                        // Get NSString from C String
-                        address = [NSString stringWithUTF8String:inet_ntoa(((struct sockaddr_in *)temp_addr->ifa_addr)->sin_addr)];
+                        const struct sockaddr_in *addr = (const struct sockaddr_in*)temp_addr->ifa_addr;
+                        socklen_t addr_len = addr_family == AF_INET ? INET_ADDRSTRLEN : INET6_ADDRSTRLEN;
+                        char addr_buffer[addr_len];
+                        // We use inet_ntop because it also supports getting an address from
+                        // interfaces that are IPv6-only
+                        char *netname = inet_ntop(addr_family, &addr->sin_addr, addr_buffer, addr_len);
+
+                         // Get NSString from C String
+                        address = [NSString stringWithUTF8String:netname];
                     }
             }
             temp_addr = temp_addr->ifa_next;
@@ -779,6 +793,17 @@ RCT_EXPORT_METHOD(getAvailableLocationProviders:(RCTPromiseResolveBlock)resolve 
     resolve(self.getAvailableLocationProviders);
 }
 
+#pragma mark - Installer Package Name -
+
+RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getInstallerPackageNameSync) {
+    return [EnvironmentValues objectAtIndex:[EnvironmentUtil currentAppEnvironment]];
+}
+
+RCT_EXPORT_METHOD(getInstallerPackageName:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject) {
+    resolve([EnvironmentValues objectAtIndex:[EnvironmentUtil currentAppEnvironment]]);
+}
+
+#pragma mark - dealloc -
 
 - (void)dealloc
 {

@@ -1,7 +1,11 @@
 
+folly_flags = "-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1"
+folly_compiler_flags = "-Wno-comma -Wno-shorten-64-to-32"
+boost_compiler_flags = "-Wno-documentation -Wno-nullability-completeness"
+
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "1.2.0"
+  s.version = "1.3.0"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
@@ -12,24 +16,20 @@ Pod::Spec.new do |s|
   s.author = { "Liam Xu" => "liamxujia@outlook.com" }
 	s.platforms = { :ios => "11.0" }
   s.source = { :git => "https://github.com/beatjs/react-component.git", :tag => s.version.to_s }
-  s.header_dir = 'ReactComponent'
-  s.swift_version = '5.0'
-  
+  s.header_dir = "ReactComponent"
+  s.swift_version = "5.0"
   s.ios.deployment_target = "11.0"
-  s.pod_target_xcconfig = {
-    "DEFINES_MODULE" => "YES"
-  }
-
   s.default_subspec = "source"
-  
+  s.compiler_flags = folly_flags + " " + folly_compiler_flags + " " + boost_compiler_flags
+
   s.subspec "framework" do |ss|
     ss.vendored_frameworks = "ios/#{s.module_name}.xcframework"
     ss.dependency "react-ios/framework", "~> 0.63.4.2"
-    ss.dependency 'Sentry', '~> 6.1.4'
-    ss.dependency 'SDWebImage', '~> 5.8'
-    ss.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
+    ss.dependency "Sentry", "~> 6.1.4"
+    ss.dependency "SDWebImage", "~> 5.8"
+    ss.dependency "SDWebImageWebPCoder", "~> 0.6.1"
     ss.dependency "SPTPersistentCache", "~> 1.1.0"
-    ss.dependency 'lottie-ios', '~> 3.1.8'
+    ss.dependency "lottie-ios", "~> 3.1.8"
     ss.dependency "DVAssetLoaderDelegate", "~> 0.3.1"
   end
 
@@ -51,88 +51,90 @@ Pod::Spec.new do |s|
     ss.dependency "react-component/react-native-pager-view"
   end
 
-  s.subspec 'RNCMaskedView' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNCMaskedView/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "RNCMaskedView" do |ss|
+    ss.source_files = "ios/ReactComponent/RNCMaskedView/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'RNGestureHandler' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNGestureHandler/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "RNGestureHandler" do |ss|
+    ss.source_files = "ios/ReactComponent/RNGestureHandler/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'RNReanimated' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNReanimated/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "RNReanimated" do |ss|
+    ss.source_files =
+    "ios/ReactComponent/RNReanimated/**/*.{h,m}"
+
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'RNScreens' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNScreens/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "RNScreens" do |ss|
+    ss.source_files = "ios/ReactComponent/RNScreens/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'RNDeviceInfo' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNDeviceInfo/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "RNDeviceInfo" do |ss|
+    ss.source_files = "ios/ReactComponent/RNDeviceInfo/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'RNSentry' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNSentry/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
-    ss.dependency 'Sentry', '~> 6.1.4'
+  s.subspec "RNSentry" do |ss|
+    ss.source_files = "ios/ReactComponent/RNSentry/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
+    ss.dependency "Sentry", "~> 7.1.0"
   end
 
-  s.subspec 'RNFastImage' do |ss|
-    ss.source_files = 'ios/ReactComponent/RNFastImage/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
-    ss.dependency 'SDWebImage', '~> 5.8'
-    ss.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
+  s.subspec "RNFastImage" do |ss|
+    ss.source_files = "ios/ReactComponent/RNFastImage/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
+    ss.dependency "SDWebImage", "~> 5.8"
+    ss.dependency "SDWebImageWebPCoder", "~> 0.6.1"
   end
 
-  s.subspec 'RNVectorIcons' do |ss|
+  s.subspec "RNVectorIcons" do |ss|
     ss.resource_bundle = { "FontsResources" => 
     ["ios/ReactComponent/RNVectorIcons/Fonts/*.ttf"]
     }
-    ss.source_files = 'ios/ReactComponent/RNVectorIcons/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+    ss.source_files = "ios/ReactComponent/RNVectorIcons/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'lottie-react-native' do |ss|
-    ss.source_files = 'ios/ReactComponent/lottie-react-native/**/*.{h,m,swift}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
-    ss.dependency 'lottie-ios', '~> 3.1.8'
+  s.subspec "lottie-react-native" do |ss|
+    ss.source_files = "ios/ReactComponent/lottie-react-native/**/*.{h,m,swift}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
+    ss.dependency "lottie-ios", "~> 3.1.8"
   end
 
-  s.subspec 'react-native-get-random-values' do |ss|
-    ss.source_files = 'ios/ReactComponent/react-native-get-random-values/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "react-native-get-random-values" do |ss|
+    ss.source_files = "ios/ReactComponent/react-native-get-random-values/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'react-native-image-resizer' do |ss|
-    ss.source_files = 'ios/ReactComponent/react-native-image-resizer/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "react-native-image-resizer" do |ss|
+    ss.source_files = "ios/ReactComponent/react-native-image-resizer/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'react-native-safe-area-context' do |ss|
-    ss.source_files = 'ios/ReactComponent/react-native-safe-area-context/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "react-native-safe-area-context" do |ss|
+    ss.source_files = "ios/ReactComponent/react-native-safe-area-context/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'react-native-video' do |ss|
-    ss.source_files = 'ios/ReactComponent/react-native-video/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "react-native-video" do |ss|
+    ss.source_files = "ios/ReactComponent/react-native-video/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
     ss.dependency "SPTPersistentCache", "~> 1.1.0"
     ss.dependency "DVAssetLoaderDelegate", "~> 0.3.1"
   end
 
-  s.subspec 'react-native-webview' do |ss|
-    ss.source_files = 'ios/ReactComponent/react-native-webview/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "react-native-webview" do |ss|
+    ss.source_files = "ios/ReactComponent/react-native-webview/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
 
-  s.subspec 'react-native-pager-view' do |ss|
-    ss.source_files = 'ios/ReactComponent/react-native-pager-view/**/*.{h,m}'
-    ss.dependency "react-ios", "~> 0.63.4.1"
+  s.subspec "react-native-pager-view" do |ss|
+    ss.source_files = "ios/ReactComponent/react-native-pager-view/**/*.{h,m}"
+    ss.dependency "react-ios", "~> 0.63.4.2"
   end
   
 end
