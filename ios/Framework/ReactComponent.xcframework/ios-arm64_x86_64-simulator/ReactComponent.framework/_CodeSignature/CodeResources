@@ -46,7 +46,7 @@
 		</data>
 		<key>FontsResources.bundle/Info.plist</key>
 		<data>
-		zvkNZPifPySGMcZAZCoXMMgdZkg=
+		4J5YtQKsN+wfTTM1vFIgZqCZwYY=
 		</data>
 		<key>FontsResources.bundle/Ionicons.ttf</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>FontsResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		1JFj3eG9cHn8+81eL8lcsucI+h8=
+		GtG/Aok5RbSer073bHfb4KSHwA0=
 		</data>
 		<key>FontsResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>FontsResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		ya33opRJgrfG2gyYMK9Ijs+oNQI=
+		wZ7AVR/GKfekBhjqJfBxYxzheqU=
 		</data>
 		<key>FontsResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -99,6 +99,10 @@
 		<key>Headers/DeviceUID.h</key>
 		<data>
 		0A8e0z4dHhmZZxGMMIHwUE9eoCw=
+		</data>
+		<key>Headers/EnvironmentUtil.h</key>
+		<data>
+		3fCDWZp9kRuv7kVvkXLgxxhfThw=
 		</data>
 		<key>Headers/FFFastImageSource.h</key>
 		<data>
@@ -124,9 +128,29 @@
 		<data>
 		GFdIRnKnhLyzCIqBQKZpqAk1n9A=
 		</data>
+		<key>Headers/RCTConvert+UIPageViewControllerNavigationOrientation.h</key>
+		<data>
+		nC/NV7CcHRd7l7aAGzIcGPof/6g=
+		</data>
+		<key>Headers/RCTConvert+UIPageViewControllerTransitionStyle.h</key>
+		<data>
+		4TamM28JC9i+p5zOJamxIq6CGD0=
+		</data>
 		<key>Headers/RCTImageResizer.h</key>
 		<data>
 		hMkUfcf+9IXhN6M237/0ueeQaHI=
+		</data>
+		<key>Headers/RCTOnPageScrollEvent.h</key>
+		<data>
+		MpwmeiWvhYhhEWnGNouFbKqj4Kk=
+		</data>
+		<key>Headers/RCTOnPageScrollStateChanged.h</key>
+		<data>
+		TJmzw3APe/GGjjBBl8aym4MG5uc=
+		</data>
+		<key>Headers/RCTOnPageSelected.h</key>
+		<data>
+		l+JPSVGEEu9wxplBuNUo5bagKZ4=
 		</data>
 		<key>Headers/RCTVideo.h</key>
 		<data>
@@ -306,7 +330,7 @@
 		</data>
 		<key>Headers/RNCWebView.h</key>
 		<data>
-		BMVN20f9G3WZdC7fz3MppSwH8No=
+		2KIOj8+jAdvQoDA0ZHMTI27DmLc=
 		</data>
 		<key>Headers/RNCWebViewManager.h</key>
 		<data>
@@ -358,7 +382,7 @@
 		</data>
 		<key>Headers/RNGetRandomValues.h</key>
 		<data>
-		Ki1DzFZJij7I852r5t586PD7EAg=
+		QANtULSGS1zIfIyu03KWWhUV5Oo=
 		</data>
 		<key>Headers/RNLongPressHandler.h</key>
 		<data>
@@ -386,7 +410,7 @@
 		</data>
 		<key>Headers/RNSScreen.h</key>
 		<data>
-		rp8Lr67ko+qrpjo6uZ+6HcCVaFk=
+		GDd0VWT8Kk9ESFO3C4AbdOUV8sY=
 		</data>
 		<key>Headers/RNSScreenContainer.h</key>
 		<data>
@@ -396,9 +420,21 @@
 		<data>
 		EVTSl5M1/raVHqXOtTQ+0HF6fKo=
 		</data>
+		<key>Headers/RNSScreenStackAnimator.h</key>
+		<data>
+		vIbSjlQTPzIJDRJztDweVU0KRAo=
+		</data>
 		<key>Headers/RNSScreenStackHeaderConfig.h</key>
 		<data>
-		Dj/gOukPIkSSEAfLFPbxisIMqxY=
+		CDJbIDa1jOFvAkWv1jHEQYTxDZc=
+		</data>
+		<key>Headers/RNSScreenWindowTraits.h</key>
+		<data>
+		cXb+dxyOIKb20aZEpt6XiI0eYPE=
+		</data>
+		<key>Headers/RNSSearchBar.h</key>
+		<data>
+		c+nnnbQVSu6c4ZlaveoGnEsJzgQ=
 		</data>
 		<key>Headers/RNSentry.h</key>
 		<data>
@@ -416,9 +452,21 @@
 		<data>
 		OlTs0iBn/H8vOj6t9sXzBQq5QQI=
 		</data>
+		<key>Headers/ReactNativePageView.h</key>
+		<data>
+		XLS7gunAx12vLcYbxoxHZ1/JQtU=
+		</data>
+		<key>Headers/ReactViewPagerManager.h</key>
+		<data>
+		SzR7Y4KXDOFmFWxd0nQ6iack1sc=
+		</data>
 		<key>Headers/UIView+FindUIViewController.h</key>
 		<data>
 		DcCBM6usv8AOjT1pAyx3U5aOvp4=
+		</data>
+		<key>Headers/UIViewController+CreateExtension.h</key>
+		<data>
+		nNeZps72FDZ1JOn7udzNbRQcyIY=
 		</data>
 		<key>Headers/UIViewController+RNScreens.h</key>
 		<data>
@@ -426,27 +474,27 @@
 		</data>
 		<key>Headers/react-component-umbrella.h</key>
 		<data>
-		Sozr0hza0776+D1wXeFp4/Osbnw=
+		PkArySQcB+amwldkdIyhih+Wozg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qezdHEpHbbYkBXfoC206ZAzbLzM=
+		syx+rGWT+4fp+MCQJ1fTcwOtZZs=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		lRCWfblNmIxFbOfgzgMGFOdupXY=
+		Tey4s70+NgfWbtSV0lFlnLWtB00=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		lRCWfblNmIxFbOfgzgMGFOdupXY=
+		Tey4s70+NgfWbtSV0lFlnLWtB00=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		xMFzoL9B7/TX06napTzM24jjP+U=
+		oZsCcxWT5KWUrCO2tyLCzA2CqGU=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		xMFzoL9B7/TX06napTzM24jjP+U=
+		oZsCcxWT5KWUrCO2tyLCzA2CqGU=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -454,7 +502,7 @@
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BmYWXk4n8rkh/w2EIdqEFuZoQOY=
+		DZWn+Yiub90vzSyjNe2N5UfVbK4=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -462,7 +510,7 @@
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		BmYWXk4n8rkh/w2EIdqEFuZoQOY=
+		DZWn+Yiub90vzSyjNe2N5UfVbK4=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -470,7 +518,7 @@
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fx0z88UBQ/vQ9NDKDFar/T1dOCY=
+		nwBeYKPdykGZMwkgA7N2jX0pxEQ=
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -478,7 +526,7 @@
 		</data>
 		<key>Modules/ReactComponent.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		Fx0z88UBQ/vQ9NDKDFar/T1dOCY=
+		nwBeYKPdykGZMwkgA7N2jX0pxEQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -561,7 +609,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdZuWNPWAnSTPp9mcGJpAvbC2c4TH4Nld950I005yis=
+			bY8G3/lidM/hP6+EnPLf0ZQUXwpV9OEMASsDP5SdWhk=
 			</data>
 		</dict>
 		<key>FontsResources.bundle/Ionicons.ttf</key>
@@ -610,7 +658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BY2d2Cmdtf/1kLJtwu+7c/PcGvLj+ULZLsuhTdK6yQo=
+			pNL1/hV0MSgDmYQTCiz+wBEaEGqqRgfJArpA01ynHes=
 			</data>
 		</dict>
 		<key>FontsResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -624,7 +672,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZEyzvz++jEdw/YVFLnY+2ZDYgNB62EX3OGdUEfHOm2w=
+			zFkC1CllVK+hZGQ0mz4ssrqH+Cf5Sd9DTk7xDgSiRX0=
 			</data>
 		</dict>
 		<key>FontsResources.bundle/_CodeSignature/CodeResources</key>
@@ -653,6 +701,13 @@
 			<key>hash2</key>
 			<data>
 			kDtdRIFkvjicxdMygPn02jKLICgx6zOASQtl0ABErT0=
+			</data>
+		</dict>
+		<key>Headers/EnvironmentUtil.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G/Nn/7avmhglde3NMDGYkAA9SoDUdYnp+65+O95rBdc=
 			</data>
 		</dict>
 		<key>Headers/FFFastImageSource.h</key>
@@ -697,11 +752,46 @@
 			GHYW9F4QNzEMVRcpsP8bAVTvvcRLur+EKvQEuzFumOw=
 			</data>
 		</dict>
+		<key>Headers/RCTConvert+UIPageViewControllerNavigationOrientation.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MkwLz3ZXHnJKZP0Fxb3t0KsT8tSDg9RWQfeEBH1y4Is=
+			</data>
+		</dict>
+		<key>Headers/RCTConvert+UIPageViewControllerTransitionStyle.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			smcuAg9vlAlMwJO5LQd764T92w49yIXOIbVMtWpQ1Sg=
+			</data>
+		</dict>
 		<key>Headers/RCTImageResizer.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ydtW3/q78jOpBofEz239kSanaacFE7pFo/DpEtsyn8E=
+			</data>
+		</dict>
+		<key>Headers/RCTOnPageScrollEvent.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vTJBWHZP9jfxNPt3wkRgVxNni49W0iyBJvhUxzDe3fE=
+			</data>
+		</dict>
+		<key>Headers/RCTOnPageScrollStateChanged.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jSNLLFY+eemZUy663Kh72iyw1A7B4FbqfJplL7zL92c=
+			</data>
+		</dict>
+		<key>Headers/RCTOnPageSelected.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v92a8zDJ8Nm0wXptnEjsgRwQXAm2VonoS8hAdo0oIcQ=
 			</data>
 		</dict>
 		<key>Headers/RCTVideo.h</key>
@@ -1016,7 +1106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VJ+BLcmfNl/WZGKcuV2TDE10hgE5LJdt2TscUoGbpFs=
+			UmR+J1WleqIKsbxMF6obDzT5XZgVAMJfT1rRr9KhfRI=
 			</data>
 		</dict>
 		<key>Headers/RNCWebViewManager.h</key>
@@ -1107,7 +1197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCCyiXM7EloetNQz8cvskslDRTN9hTfe7Ommmvpss3Y=
+			J7QgzWrSolF2YQDsuIiRg7sjBGIPeTbaSQRh+y/Xq7Q=
 			</data>
 		</dict>
 		<key>Headers/RNLongPressHandler.h</key>
@@ -1156,7 +1246,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZGXBjPEYAcU7eCElvbfvcCN13nMy1cJ4c22LeEbo8Xo=
+			7a6OcccY0xLZEqsWekDMaFVjCUwfxFGERP/PFgRdp+4=
 			</data>
 		</dict>
 		<key>Headers/RNSScreenContainer.h</key>
@@ -1173,11 +1263,32 @@
 			JfFwYtiKd1muI3gdIojV7PFtVRj8zPqtZQL0KnXuAP4=
 			</data>
 		</dict>
+		<key>Headers/RNSScreenStackAnimator.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dUAHcyC5ufTCpijLb2ybMmMLiYpwN7FDO1LOI265Ra0=
+			</data>
+		</dict>
 		<key>Headers/RNSScreenStackHeaderConfig.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e6y94AF68RkCjtBLObzhJ6/ii2LhmAtpfr6NmsSJssA=
+			T6ojwZoD63q2vJdeT6TNaE/yjz2KfPMS/pUG0/Sf2fQ=
+			</data>
+		</dict>
+		<key>Headers/RNSScreenWindowTraits.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ABosktBPbMgusQNWKzOmhquuWj3tNWZxRaSypdJmafo=
+			</data>
+		</dict>
+		<key>Headers/RNSSearchBar.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EO67cnkSZ9BmIQ6jlK8ykEn+iv7msD5uYlx03S50Pkg=
 			</data>
 		</dict>
 		<key>Headers/RNSentry.h</key>
@@ -1208,11 +1319,32 @@
 			M8laqY99csFJAaYlK+bRt13MiLWI4tNNlGJhOVriGso=
 			</data>
 		</dict>
+		<key>Headers/ReactNativePageView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2g4tAr/8+4ddm79GzO3BnCLmm96X6Z8lYw6Yz3mcbJA=
+			</data>
+		</dict>
+		<key>Headers/ReactViewPagerManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lg18Ks7lYTfZV0DiWy0PRovCLf9p7zcVmdt2EzRkUvo=
+			</data>
+		</dict>
 		<key>Headers/UIView+FindUIViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			F0/8mnOUT55a0qVNzFlvegPlcYDQXA01GtOVUMjLoU8=
+			</data>
+		</dict>
+		<key>Headers/UIViewController+CreateExtension.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tAyk04jQqrSYLS+NPQV5QX/4QD1BpIobP0Et2lg89+c=
 			</data>
 		</dict>
 		<key>Headers/UIViewController+RNScreens.h</key>
@@ -1226,35 +1358,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YzrCKOrdbVgZG6ftM6A5M/BxS+xSMfrXk7N0k5wQbiQ=
+			+cZy5Yv0Zff+8dPwBZCh58DZy4rR+azpkeM9QgExsRM=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			65ihkMX6YwDE5+Vju0R/1BUFxS+d22zsCaincW1m8cA=
+			EZW4ZEOBtBCtvDNhqh41P/224Ln4taDCNFpPi90C58M=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			65ihkMX6YwDE5+Vju0R/1BUFxS+d22zsCaincW1m8cA=
+			EZW4ZEOBtBCtvDNhqh41P/224Ln4taDCNFpPi90C58M=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fMzBFN93+pOmStM1TozrV98VgmDenr+AB6o5GUKjdiQ=
+			fiPAMF5IkLKNTenLDyWUBK28TQMIH+kpsruf5lzJ47g=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fMzBFN93+pOmStM1TozrV98VgmDenr+AB6o5GUKjdiQ=
+			fiPAMF5IkLKNTenLDyWUBK28TQMIH+kpsruf5lzJ47g=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -1268,7 +1400,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p1At7YmYWEPKg65QbGMvJjFIfh36bAZy9BXcwq6WduI=
+			m8cgxd3EcpExUoJ9lFPY6h0/ICI0zLMXKWpiD2DcIAY=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/arm64.swiftdoc</key>
@@ -1282,7 +1414,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p1At7YmYWEPKg65QbGMvJjFIfh36bAZy9BXcwq6WduI=
+			m8cgxd3EcpExUoJ9lFPY6h0/ICI0zLMXKWpiD2DcIAY=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1296,7 +1428,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vqw81tngEJ79cdqRM/uK4fOcyCzFBT5qjFkQV+pUeBk=
+			nlSE6/cOgu3JRQFhyr4EdxzZJKiuDKodo/4HkABQndY=
 			</data>
 		</dict>
 		<key>Modules/ReactComponent.swiftmodule/x86_64.swiftdoc</key>
@@ -1310,7 +1442,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vqw81tngEJ79cdqRM/uK4fOcyCzFBT5qjFkQV+pUeBk=
+			nlSE6/cOgu3JRQFhyr4EdxzZJKiuDKodo/4HkABQndY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

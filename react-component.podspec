@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.compiler_flags = folly_flags + " " + folly_compiler_flags + " " + boost_compiler_flags
 
   s.subspec "framework" do |ss|
-    ss.vendored_frameworks = "ios/#{s.module_name}.xcframework"
+    ss.vendored_frameworks = "ios/Framework/#{s.module_name}.xcframework"
     ss.dependency "react-ios/framework", "~> 0.63.4.2"
     ss.dependency "Sentry", "~> 6.1.4"
     ss.dependency "SDWebImage", "~> 5.8"
