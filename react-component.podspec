@@ -5,7 +5,7 @@ boost_compiler_flags = "-Wno-documentation -Wno-nullability-completeness"
 
 Pod::Spec.new do |s|
   s.name = "react-component"
-  s.version = "1.3.0"
+  s.version = "1.4.0"
   s.summary = "An runtime base on react-native."
   s.description = 
 	<<-DESC
@@ -19,13 +19,29 @@ Pod::Spec.new do |s|
   s.header_dir = "ReactComponent"
   s.swift_version = "5.0"
   s.ios.deployment_target = "11.0"
-  s.default_subspec = "source"
+  s.default_subspec = "framework"
   s.compiler_flags = folly_flags + " " + folly_compiler_flags + " " + boost_compiler_flags
 
   s.subspec "framework" do |ss|
-    ss.vendored_frameworks = "ios/Framework/#{s.module_name}.xcframework"
+    ss.vendored_frameworks = 
+    "ios/Framework/BVLinearGradient.xcframework",
+    "ios/Framework/lottie_react_native.xcframework",
+    "ios/Framework/react_native_get_random_values.xcframework",
+    "ios/Framework/react_native_image_resizer.xcframework",
+    "ios/Framework/react_native_pager_view.xcframework",
+    "ios/Framework/react_native_safe_area_context.xcframework",
+    "ios/Framework/react_native_video.xcframework",
+    "ios/Framework/react_native_webview.xcframework",
+    "ios/Framework/RNCMaskedView.xcframework",
+    "ios/Framework/RNDeviceInfo.xcframework",
+    "ios/Framework/RNFastImage.xcframework",
+    "ios/Framework/RNGestureHandler.xcframework",
+    "ios/Framework/RNReanimated.xcframework",
+    "ios/Framework/RNScreens.xcframework",
+    "ios/Framework/RNSentry.xcframework",
+    "ios/Framework/RNVectorIcons.xcframework"
     ss.dependency "react-ios/framework", "~> 0.63.4.2"
-    ss.dependency "Sentry", "~> 6.1.4"
+    ss.dependency "Sentry", "~> 7.1.0"
     ss.dependency "SDWebImage", "~> 5.8"
     ss.dependency "SDWebImageWebPCoder", "~> 0.6.1"
     ss.dependency "SPTPersistentCache", "~> 1.1.0"

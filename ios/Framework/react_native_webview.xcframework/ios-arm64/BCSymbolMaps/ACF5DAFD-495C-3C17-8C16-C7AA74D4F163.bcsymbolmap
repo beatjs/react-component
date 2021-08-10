@@ -1,0 +1,770 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+iPhoneOS14.5.sdk
+/Users/xujia/Library/Developer/Xcode/DerivedData/HycanReactNative-advhuniyxrhmiehcytlqfbncydbe/Build/Intermediates.noindex/ArchiveIntermediates/react-native-webview/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/react-native-webview.build/DerivedSources/react_native_webview_vers.c
+/Users/xujia/Desktop/Hycan/HycanReactNative/ios/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_react_native_webview
+__OBJC_CLASS_RO_$_PodsDummy_react_native_webview
+/Users/xujia/Desktop/Hycan/HycanReactNative/ios/Pods/Target Support Files/react-native-webview/react-native-webview-dummy.m
+-[_SwizzleHelperWK inputAccessoryView]
+-[_SwizzleHelperWK webView]
+-[_SwizzleHelperWK setWebView:]
+-[_SwizzleHelperWK .cxx_destruct]
+-[RNCWebView initWithFrame:]
+-[RNCWebView dealloc]
+-[RNCWebView webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:]
+-[RNCWebView setUpWkWebViewConfig]
+-[RNCWebView didMoveToWindow]
+-[RNCWebView setAllowsBackForwardNavigationGestures:]
+-[RNCWebView removeFromSuperview]
+-[RNCWebView showFullScreenVideoStatusBars]
+___43-[RNCWebView showFullScreenVideoStatusBars]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[RNCWebView hideFullScreenVideoStatusBars]
+___43-[RNCWebView hideFullScreenVideoStatusBars]_block_invoke
+-[RNCWebView keyboardWillHide]
+-[RNCWebView keyboardWillShow]
+-[RNCWebView keyboardDisplacementFix]
+___37-[RNCWebView keyboardDisplacementFix]_block_invoke
+-[RNCWebView observeValueForKeyPath:ofObject:change:context:]
+-[RNCWebView setBackgroundColor:]
+-[RNCWebView setContentInsetAdjustmentBehavior:]
+-[RNCWebView setAutomaticallyAdjustsScrollIndicatorInsets:]
+-[RNCWebView userContentController:didReceiveScriptMessage:]
+-[RNCWebView setSource:]
+-[RNCWebView setAllowingReadAccessToURL:]
+-[RNCWebView setContentInset:]
+-[RNCWebView refreshContentInset]
+-[RNCWebView visitSource]
+-[RNCWebView setKeyboardDisplayRequiresUserAction:]
+___51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke
+___51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke_2
+___51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke_3
+___51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke_4
+-[RNCWebView setHideKeyboardAccessoryView:]
+-[RNCWebView scrollViewWillBeginDragging:]
+-[RNCWebView setScrollEnabled:]
+-[RNCWebView scrollViewDidScroll:]
+-[RNCWebView setDirectionalLockEnabled:]
+-[RNCWebView setShowsHorizontalScrollIndicator:]
+-[RNCWebView setShowsVerticalScrollIndicator:]
+-[RNCWebView postMessage:]
+-[RNCWebView layoutSubviews]
+-[RNCWebView baseEvent]
++[RNCWebView setClientAuthenticationCredential:]
++[RNCWebView setCustomCertificatesForHost:]
+-[RNCWebView webView:didReceiveAuthenticationChallenge:completionHandler:]
+-[RNCWebView webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:]
+___92-[RNCWebView webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke
+___copy_helper_block_e8_32b
+-[RNCWebView webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:]
+___94-[RNCWebView webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke
+___94-[RNCWebView webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke_2
+-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]
+___107-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke
+___107-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke.445
+___copy_helper_block_e8_32b40s
+___destroy_helper_block_e8_32s40s
+___107-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke.452
+-[RNCWebView topViewController]
+-[RNCWebView webView:decidePolicyForNavigationAction:decisionHandler:]
+___70-[RNCWebView webView:decidePolicyForNavigationAction:decisionHandler:]_block_invoke
+-[RNCWebView webViewWebContentProcessDidTerminate:]
+-[RNCWebView webView:decidePolicyForNavigationResponse:decisionHandler:]
+-[RNCWebView webView:didFailProvisionalNavigation:withError:]
+-[RNCWebView evaluateJS:thenCall:]
+___34-[RNCWebView evaluateJS:thenCall:]_block_invoke
+-[RNCWebView forceIgnoreSilentHardwareSwitch:]
+-[RNCWebView disableIgnoreSilentSwitch]
+-[RNCWebView appDidBecomeActive]
+-[RNCWebView appWillResignActive]
+-[RNCWebView webView:didFinishNavigation:]
+-[RNCWebView injectJavaScript:]
+-[RNCWebView goForward]
+-[RNCWebView goBack]
+-[RNCWebView reload]
+-[RNCWebView addPullToRefreshControl]
+-[RNCWebView pullToRefresh:]
+-[RNCWebView setPullToRefreshEnabled:]
+-[RNCWebView stopLoading]
+-[RNCWebView setBounces:]
+-[RNCWebView setInjectedJavaScript:]
+-[RNCWebView setInjectedJavaScriptBeforeContentLoaded:]
+-[RNCWebView setInjectedJavaScriptForMainFrameOnly:]
+-[RNCWebView setInjectedJavaScriptBeforeContentLoadedForMainFrameOnly:]
+-[RNCWebView setMessagingEnabled:]
+-[RNCWebView resetupScripts:]
+-[RNCWebView requestForSource:]
+-[RNCWebView delegate]
+-[RNCWebView setDelegate:]
+-[RNCWebView source]
+-[RNCWebView messagingEnabled]
+-[RNCWebView injectedJavaScript]
+-[RNCWebView injectedJavaScriptBeforeContentLoaded]
+-[RNCWebView injectedJavaScriptForMainFrameOnly]
+-[RNCWebView injectedJavaScriptBeforeContentLoadedForMainFrameOnly]
+-[RNCWebView scrollEnabled]
+-[RNCWebView sharedCookiesEnabled]
+-[RNCWebView setSharedCookiesEnabled:]
+-[RNCWebView autoManageStatusBarEnabled]
+-[RNCWebView setAutoManageStatusBarEnabled:]
+-[RNCWebView pagingEnabled]
+-[RNCWebView setPagingEnabled:]
+-[RNCWebView decelerationRate]
+-[RNCWebView setDecelerationRate:]
+-[RNCWebView allowsInlineMediaPlayback]
+-[RNCWebView setAllowsInlineMediaPlayback:]
+-[RNCWebView bounces]
+-[RNCWebView mediaPlaybackRequiresUserAction]
+-[RNCWebView setMediaPlaybackRequiresUserAction:]
+-[RNCWebView contentInset]
+-[RNCWebView automaticallyAdjustContentInsets]
+-[RNCWebView setAutomaticallyAdjustContentInsets:]
+-[RNCWebView keyboardDisplayRequiresUserAction]
+-[RNCWebView hideKeyboardAccessoryView]
+-[RNCWebView allowsBackForwardNavigationGestures]
+-[RNCWebView incognito]
+-[RNCWebView setIncognito:]
+-[RNCWebView useSharedProcessPool]
+-[RNCWebView setUseSharedProcessPool:]
+-[RNCWebView userAgent]
+-[RNCWebView setUserAgent:]
+-[RNCWebView applicationNameForUserAgent]
+-[RNCWebView setApplicationNameForUserAgent:]
+-[RNCWebView cacheEnabled]
+-[RNCWebView setCacheEnabled:]
+-[RNCWebView javaScriptEnabled]
+-[RNCWebView setJavaScriptEnabled:]
+-[RNCWebView javaScriptCanOpenWindowsAutomatically]
+-[RNCWebView setJavaScriptCanOpenWindowsAutomatically:]
+-[RNCWebView allowFileAccessFromFileURLs]
+-[RNCWebView setAllowFileAccessFromFileURLs:]
+-[RNCWebView allowUniversalAccessFromFileURLs]
+-[RNCWebView setAllowUniversalAccessFromFileURLs:]
+-[RNCWebView allowsLinkPreview]
+-[RNCWebView setAllowsLinkPreview:]
+-[RNCWebView showsHorizontalScrollIndicator]
+-[RNCWebView showsVerticalScrollIndicator]
+-[RNCWebView directionalLockEnabled]
+-[RNCWebView ignoreSilentHardwareSwitch]
+-[RNCWebView setIgnoreSilentHardwareSwitch:]
+-[RNCWebView allowingReadAccessToURL]
+-[RNCWebView pullToRefreshEnabled]
+-[RNCWebView enableApplePay]
+-[RNCWebView setEnableApplePay:]
+-[RNCWebView refreshControl]
+-[RNCWebView setRefreshControl:]
+-[RNCWebView contentMode]
+-[RNCWebView setContentMode:]
+-[RNCWebView limitsNavigationsToAppBoundDomains]
+-[RNCWebView setLimitsNavigationsToAppBoundDomains:]
+-[RNCWebView onFileDownload]
+-[RNCWebView setOnFileDownload:]
+-[RNCWebView onLoadingStart]
+-[RNCWebView setOnLoadingStart:]
+-[RNCWebView onLoadingFinish]
+-[RNCWebView setOnLoadingFinish:]
+-[RNCWebView onLoadingError]
+-[RNCWebView setOnLoadingError:]
+-[RNCWebView onLoadingProgress]
+-[RNCWebView setOnLoadingProgress:]
+-[RNCWebView onShouldStartLoadWithRequest]
+-[RNCWebView setOnShouldStartLoadWithRequest:]
+-[RNCWebView onHttpError]
+-[RNCWebView setOnHttpError:]
+-[RNCWebView onMessage]
+-[RNCWebView setOnMessage:]
+-[RNCWebView onScroll]
+-[RNCWebView setOnScroll:]
+-[RNCWebView onContentProcessDidTerminate]
+-[RNCWebView setOnContentProcessDidTerminate:]
+-[RNCWebView webView]
+-[RNCWebView setWebView:]
+-[RNCWebView postMessageScript]
+-[RNCWebView setPostMessageScript:]
+-[RNCWebView atStartScript]
+-[RNCWebView setAtStartScript:]
+-[RNCWebView atEndScript]
+-[RNCWebView setAtEndScript:]
+-[RNCWebView .cxx_destruct]
+-[RNCWeakScriptMessageDelegate initWithDelegate:]
+-[RNCWeakScriptMessageDelegate userContentController:didReceiveScriptMessage:]
+-[RNCWeakScriptMessageDelegate scriptDelegate]
+-[RNCWeakScriptMessageDelegate setScriptDelegate:]
+-[RNCWeakScriptMessageDelegate .cxx_destruct]
+___clang_at_available_requires_core_foundation_framework
+_OBJC_IVAR_$__SwizzleHelperWK._webView
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+__OBJC_METACLASS_RO_$__SwizzleHelperWK
+__OBJC_$_INSTANCE_METHODS__SwizzleHelperWK
+__OBJC_$_INSTANCE_VARIABLES__SwizzleHelperWK
+__OBJC_$_PROP_LIST__SwizzleHelperWK
+__OBJC_CLASS_RO_$__SwizzleHelperWK
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.22
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_IVAR_$_RNCWebView._bounces
+_OBJC_IVAR_$_RNCWebView._scrollEnabled
+_OBJC_IVAR_$_RNCWebView._showsHorizontalScrollIndicator
+_OBJC_IVAR_$_RNCWebView._showsVerticalScrollIndicator
+_OBJC_IVAR_$_RNCWebView._directionalLockEnabled
+_OBJC_IVAR_$_RNCWebView._automaticallyAdjustContentInsets
+_OBJC_IVAR_$_RNCWebView._autoManageStatusBarEnabled
+_OBJC_IVAR_$_RNCWebView._contentInset
+_OBJC_IVAR_$_RNCWebView._savedKeyboardDisplayRequiresUserAction
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_IVAR_$_RNCWebView._savedStatusBarStyle
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_IVAR_$_RNCWebView._savedStatusBarHidden
+_OBJC_IVAR_$_RNCWebView._injectedJavaScript
+_OBJC_IVAR_$_RNCWebView._injectedJavaScriptForMainFrameOnly
+_OBJC_IVAR_$_RNCWebView._injectedJavaScriptBeforeContentLoaded
+_OBJC_IVAR_$_RNCWebView._injectedJavaScriptBeforeContentLoadedForMainFrameOnly
+_OBJC_IVAR_$_RNCWebView._savedContentInsetAdjustmentBehavior
+_OBJC_IVAR_$_RNCWebView._savedAutomaticallyAdjustsScrollIndicatorInsets
+_OBJC_IVAR_$_RNCWebView._enableApplePay
+_OBJC_CLASSLIST_REFERENCES_$_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_SELECTOR_REFERENCES_.55
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_CLASSLIST_REFERENCES_$_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_IVAR_$_RNCWebView._javaScriptEnabled
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_IVAR_$_RNCWebView._allowUniversalAccessFromFileURLs
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_IVAR_$_RNCWebView._allowFileAccessFromFileURLs
+_OBJC_IVAR_$_RNCWebView._javaScriptCanOpenWindowsAutomatically
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_IVAR_$_RNCWebView._incognito
+_OBJC_CLASSLIST_REFERENCES_$_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_IVAR_$_RNCWebView._cacheEnabled
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_CLASSLIST_REFERENCES_$_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_IVAR_$_RNCWebView._contentMode
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_IVAR_$_RNCWebView._limitsNavigationsToAppBoundDomains
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_CLASSLIST_REFERENCES_$_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_IVAR_$_RNCWebView._allowsInlineMediaPlayback
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_IVAR_$_RNCWebView._mediaPlaybackRequiresUserAction
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_IVAR_$_RNCWebView._applicationNameForUserAgent
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_IVAR_$_RNCWebView._webView
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_CLASSLIST_REFERENCES_$_.133
+_OBJC_SELECTOR_REFERENCES_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_IVAR_$_RNCWebView._savedBackgroundColor
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_IVAR_$_RNCWebView._pullToRefreshEnabled
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_IVAR_$_RNCWebView._pagingEnabled
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_IVAR_$_RNCWebView._allowsLinkPreview
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_IVAR_$_RNCWebView._allowsBackForwardNavigationGestures
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_IVAR_$_RNCWebView._userAgent
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_IVAR_$_RNCWebView._savedHideKeyboardAccessoryView
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.179
+_OBJC_SELECTOR_REFERENCES_.181
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.185
+_OBJC_SELECTOR_REFERENCES_.187
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_IVAR_$_RNCWebView._onContentProcessDidTerminate
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_IVAR_$_RNCWebView._isFullScreenVideoOpen
+_OBJC_SELECTOR_REFERENCES_.193
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.196
+_OBJC_CLASSLIST_REFERENCES_$_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_keyboardTimer
+_OBJC_CLASSLIST_REFERENCES_$_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.215
+_OBJC_CLASSLIST_REFERENCES_$_.216
+_OBJC_SELECTOR_REFERENCES_.218
+___block_descriptor_48_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_IVAR_$_RNCWebView._onLoadingProgress
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+_OBJC_CLASSLIST_REFERENCES_$_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_SELECTOR_REFERENCES_.233
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_SELECTOR_REFERENCES_.241
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_IVAR_$_RNCWebView._onLoadingFinish
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_IVAR_$_RNCWebView._onMessage
+_OBJC_IVAR_$_RNCWebView._source
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_SELECTOR_REFERENCES_.253
+_OBJC_IVAR_$_RNCWebView._allowingReadAccessToURL
+_OBJC_CLASSLIST_REFERENCES_$_.254
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_CLASSLIST_REFERENCES_$_.257
+_OBJC_SELECTOR_REFERENCES_.261
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_CLASSLIST_REFERENCES_$_.268
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_CLASSLIST_REFERENCES_$_.285
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_SELECTOR_REFERENCES_.293
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_SELECTOR_REFERENCES_.305
+_OBJC_SELECTOR_REFERENCES_.307
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_CLASSLIST_REFERENCES_$_.316
+_OBJC_SELECTOR_REFERENCES_.318
+_OBJC_SELECTOR_REFERENCES_.320
+___block_descriptor_48_e24_v44?08^v16B24B28B3236l
+___block_descriptor_48_e21_v40?08^v16B24B2832l
+_OBJC_SELECTOR_REFERENCES_.332
+_OBJC_SELECTOR_REFERENCES_.334
+_OBJC_CLASSLIST_REFERENCES_$_.335
+_OBJC_SELECTOR_REFERENCES_.336
+_OBJC_IVAR_$_RNCWebView._decelerationRate
+_OBJC_SELECTOR_REFERENCES_.338
+_OBJC_SELECTOR_REFERENCES_.340
+_OBJC_IVAR_$_RNCWebView._onScroll
+_OBJC_SELECTOR_REFERENCES_.352
+_OBJC_SELECTOR_REFERENCES_.370
+_OBJC_SELECTOR_REFERENCES_.374
+_OBJC_SELECTOR_REFERENCES_.376
+_OBJC_SELECTOR_REFERENCES_.378
+_OBJC_SELECTOR_REFERENCES_.380
+_OBJC_SELECTOR_REFERENCES_.384
+_OBJC_SELECTOR_REFERENCES_.388
+_OBJC_SELECTOR_REFERENCES_.392
+_OBJC_SELECTOR_REFERENCES_.394
+_OBJC_SELECTOR_REFERENCES_.398
+_OBJC_SELECTOR_REFERENCES_.402
+_OBJC_CLASSLIST_REFERENCES_$_.403
+_OBJC_SELECTOR_REFERENCES_.405
+_clientAuthenticationCredential
+_customCertificatesForHost
+_OBJC_SELECTOR_REFERENCES_.407
+_OBJC_SELECTOR_REFERENCES_.409
+_OBJC_SELECTOR_REFERENCES_.411
+_OBJC_SELECTOR_REFERENCES_.413
+_OBJC_SELECTOR_REFERENCES_.415
+_OBJC_CLASSLIST_REFERENCES_$_.416
+_OBJC_SELECTOR_REFERENCES_.418
+_OBJC_SELECTOR_REFERENCES_.420
+_OBJC_SELECTOR_REFERENCES_.422
+_OBJC_CLASSLIST_REFERENCES_$_.423
+_OBJC_SELECTOR_REFERENCES_.425
+_OBJC_CLASSLIST_REFERENCES_$_.426
+___block_descriptor_40_e8_32bs_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.431
+_OBJC_SELECTOR_REFERENCES_.433
+_OBJC_SELECTOR_REFERENCES_.435
+_OBJC_SELECTOR_REFERENCES_.437
+_OBJC_SELECTOR_REFERENCES_.441
+___block_descriptor_40_e8_32s_e21_v16?0"UITextField"8l
+_OBJC_SELECTOR_REFERENCES_.444
+_OBJC_SELECTOR_REFERENCES_.447
+_OBJC_SELECTOR_REFERENCES_.449
+_OBJC_SELECTOR_REFERENCES_.451
+___block_descriptor_48_e8_32bs40s_e23_v16?0"UIAlertAction"8l
+_OBJC_SELECTOR_REFERENCES_.454
+_webView:decidePolicyForNavigationAction:decisionHandler:.navigationTypes
+_webView:decidePolicyForNavigationAction:decisionHandler:.onceToken
+___block_descriptor_32_e5_v8?0l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.456
+_OBJC_SELECTOR_REFERENCES_.470
+_OBJC_SELECTOR_REFERENCES_.472
+_OBJC_IVAR_$_RNCWebView._onShouldStartLoadWithRequest
+_OBJC_SELECTOR_REFERENCES_.478
+_OBJC_SELECTOR_REFERENCES_.480
+_OBJC_IVAR_$_RNCWebView._onLoadingStart
+_OBJC_IVAR_$_RNCWebView._onHttpError
+_OBJC_SELECTOR_REFERENCES_.485
+_OBJC_SELECTOR_REFERENCES_.487
+_OBJC_CLASSLIST_REFERENCES_$_.488
+_OBJC_SELECTOR_REFERENCES_.490
+_OBJC_SELECTOR_REFERENCES_.492
+_OBJC_SELECTOR_REFERENCES_.498
+_OBJC_SELECTOR_REFERENCES_.502
+_OBJC_IVAR_$_RNCWebView._onFileDownload
+_OBJC_IVAR_$_RNCWebView._onLoadingError
+_OBJC_SELECTOR_REFERENCES_.506
+_OBJC_SELECTOR_REFERENCES_.508
+_OBJC_SELECTOR_REFERENCES_.520
+_OBJC_SELECTOR_REFERENCES_.522
+___block_descriptor_40_e8_32bs_e20_v24?08"NSError"16l
+_OBJC_SELECTOR_REFERENCES_.531
+_OBJC_SELECTOR_REFERENCES_.539
+_OBJC_IVAR_$_RNCWebView._ignoreSilentHardwareSwitch
+_OBJC_SELECTOR_REFERENCES_.543
+_OBJC_SELECTOR_REFERENCES_.545
+_OBJC_SELECTOR_REFERENCES_.547
+_OBJC_SELECTOR_REFERENCES_.549
+_OBJC_SELECTOR_REFERENCES_.551
+_OBJC_SELECTOR_REFERENCES_.553
+_OBJC_SELECTOR_REFERENCES_.555
+_OBJC_CLASSLIST_REFERENCES_$_.556
+_OBJC_IVAR_$_RNCWebView._refreshControl
+_OBJC_SELECTOR_REFERENCES_.558
+_OBJC_SELECTOR_REFERENCES_.560
+_OBJC_SELECTOR_REFERENCES_.562
+_OBJC_SELECTOR_REFERENCES_.564
+_OBJC_CLASSLIST_REFERENCES_$_.565
+_OBJC_SELECTOR_REFERENCES_.567
+_OBJC_SELECTOR_REFERENCES_.569
+_OBJC_SELECTOR_REFERENCES_.571
+_OBJC_SELECTOR_REFERENCES_.573
+_OBJC_SELECTOR_REFERENCES_.575
+_OBJC_IVAR_$_RNCWebView._messagingEnabled
+_OBJC_SELECTOR_REFERENCES_.579
+_OBJC_SELECTOR_REFERENCES_.581
+_OBJC_SELECTOR_REFERENCES_.583
+_OBJC_SELECTOR_REFERENCES_.587
+_OBJC_IVAR_$_RNCWebView._sharedCookiesEnabled
+_OBJC_CLASSLIST_REFERENCES_$_.588
+_OBJC_SELECTOR_REFERENCES_.590
+_OBJC_SELECTOR_REFERENCES_.592
+_OBJC_CLASSLIST_REFERENCES_$_.593
+_OBJC_SELECTOR_REFERENCES_.595
+_OBJC_SELECTOR_REFERENCES_.599
+_OBJC_SELECTOR_REFERENCES_.603
+_OBJC_SELECTOR_REFERENCES_.605
+_OBJC_SELECTOR_REFERENCES_.607
+_OBJC_SELECTOR_REFERENCES_.611
+_OBJC_SELECTOR_REFERENCES_.615
+_OBJC_SELECTOR_REFERENCES_.621
+_OBJC_SELECTOR_REFERENCES_.623
+_OBJC_SELECTOR_REFERENCES_.625
+_OBJC_SELECTOR_REFERENCES_.627
+_OBJC_SELECTOR_REFERENCES_.629
+_OBJC_SELECTOR_REFERENCES_.631
+_OBJC_SELECTOR_REFERENCES_.633
+_OBJC_IVAR_$_RNCWebView._delegate
+_OBJC_IVAR_$_RNCWebView._keyboardDisplayRequiresUserAction
+_OBJC_IVAR_$_RNCWebView._hideKeyboardAccessoryView
+_OBJC_IVAR_$_RNCWebView._useSharedProcessPool
+_OBJC_IVAR_$_RNCWebView._postMessageScript
+_OBJC_IVAR_$_RNCWebView._atStartScript
+_OBJC_IVAR_$_RNCWebView._atEndScript
+__OBJC_$_CLASS_METHODS_RNCWebView
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_WKUIDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKUIDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKUIDelegate
+__OBJC_PROTOCOL_$_WKUIDelegate
+__OBJC_LABEL_PROTOCOL_$_WKUIDelegate
+__OBJC_$_PROTOCOL_REFS_WKNavigationDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_WKNavigationDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKNavigationDelegate
+__OBJC_PROTOCOL_$_WKNavigationDelegate
+__OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+__OBJC_$_PROTOCOL_REFS_WKScriptMessageHandler
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_WKScriptMessageHandler
+__OBJC_$_PROTOCOL_METHOD_TYPES_WKScriptMessageHandler
+__OBJC_PROTOCOL_$_WKScriptMessageHandler
+__OBJC_LABEL_PROTOCOL_$_WKScriptMessageHandler
+__OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_RCTAutoInsetsProtocol
+__OBJC_$_PROP_LIST_RCTAutoInsetsProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_RCTAutoInsetsProtocol
+__OBJC_PROTOCOL_$_RCTAutoInsetsProtocol
+__OBJC_LABEL_PROTOCOL_$_RCTAutoInsetsProtocol
+__OBJC_CLASS_PROTOCOLS_$_RNCWebView
+__OBJC_METACLASS_RO_$_RNCWebView
+__OBJC_$_INSTANCE_METHODS_RNCWebView
+__OBJC_$_INSTANCE_VARIABLES_RNCWebView
+__OBJC_$_PROP_LIST_RNCWebView
+__OBJC_CLASS_RO_$_RNCWebView
+_OBJC_SELECTOR_REFERENCES_.1030
+_OBJC_SELECTOR_REFERENCES_.1031
+__OBJC_CLASS_PROTOCOLS_$_RNCWeakScriptMessageDelegate
+__OBJC_METACLASS_RO_$_RNCWeakScriptMessageDelegate
+__OBJC_$_INSTANCE_METHODS_RNCWeakScriptMessageDelegate
+_OBJC_IVAR_$_RNCWeakScriptMessageDelegate._scriptDelegate
+__OBJC_$_INSTANCE_VARIABLES_RNCWeakScriptMessageDelegate
+__OBJC_$_PROP_LIST_RNCWeakScriptMessageDelegate
+__OBJC_CLASS_RO_$_RNCWeakScriptMessageDelegate
+/Users/xujia/Desktop/Hycan/HycanReactNative/node_modules/react-native-webview/apple/RNCWebView.m
+node_modules/react-native-webview/apple/RNCWebView.m
+/Users/xujia/Desktop/Hycan/HycanReactNative
+node_modules/react-native-webview/apple/RNCWebView.h
+__34-[RNCWebView evaluateJS:thenCall:]_block_invoke
+__70-[RNCWebView webView:decidePolicyForNavigationAction:decisionHandler:]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/usr/include/dispatch/once.h
+__107-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke.452
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32b40s
+__107-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke.445
+__107-[RNCWebView webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke
+__94-[RNCWebView webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke_2
+__94-[RNCWebView webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke
+__copy_helper_block_e8_32b
+__92-[RNCWebView webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke
+__51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke_4
+__51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke_3
+__51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke_2
+__51-[RNCWebView setKeyboardDisplayRequiresUserAction:]_block_invoke
+__37-[RNCWebView keyboardDisplacementFix]_block_invoke
+__43-[RNCWebView hideFullScreenVideoStatusBars]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__43-[RNCWebView showFullScreenVideoStatusBars]_block_invoke
++[RCTConvert(WKWebView) WKContentMode:]
+___39+[RCTConvert(WKWebView) WKContentMode:]_block_invoke
++[RNCWebViewManager moduleName]
++[RNCWebViewManager load]
+-[RNCWebViewManager view]
++[RNCWebViewManager propConfig_source]
++[RNCWebViewManager propConfig_onFileDownload]
++[RNCWebViewManager propConfig_onLoadingStart]
++[RNCWebViewManager propConfig_onLoadingFinish]
++[RNCWebViewManager propConfig_onLoadingError]
++[RNCWebViewManager propConfig_onLoadingProgress]
++[RNCWebViewManager propConfig_onHttpError]
++[RNCWebViewManager propConfig_onShouldStartLoadWithRequest]
++[RNCWebViewManager propConfig_onContentProcessDidTerminate]
++[RNCWebViewManager propConfig_injectedJavaScript]
++[RNCWebViewManager propConfig_injectedJavaScriptBeforeContentLoaded]
++[RNCWebViewManager propConfig_injectedJavaScriptForMainFrameOnly]
++[RNCWebViewManager propConfig_injectedJavaScriptBeforeContentLoadedForMainFrameOnly]
++[RNCWebViewManager propConfig_javaScriptEnabled]
++[RNCWebViewManager propConfig_javaScriptCanOpenWindowsAutomatically]
++[RNCWebViewManager propConfig_allowFileAccessFromFileURLs]
++[RNCWebViewManager propConfig_allowUniversalAccessFromFileURLs]
++[RNCWebViewManager propConfig_allowsInlineMediaPlayback]
++[RNCWebViewManager propConfig_mediaPlaybackRequiresUserAction]
++[RNCWebViewManager propConfig_contentInset]
++[RNCWebViewManager propConfig_automaticallyAdjustContentInsets]
++[RNCWebViewManager propConfig_autoManageStatusBarEnabled]
++[RNCWebViewManager propConfig_hideKeyboardAccessoryView]
++[RNCWebViewManager propConfig_allowsBackForwardNavigationGestures]
++[RNCWebViewManager propConfig_incognito]
++[RNCWebViewManager propConfig_pagingEnabled]
++[RNCWebViewManager propConfig_userAgent]
++[RNCWebViewManager propConfig_applicationNameForUserAgent]
++[RNCWebViewManager propConfig_cacheEnabled]
++[RNCWebViewManager propConfig_allowsLinkPreview]
++[RNCWebViewManager propConfig_allowingReadAccessToURL]
++[RNCWebViewManager propConfig_contentInsetAdjustmentBehavior]
++[RNCWebViewManager propConfig_automaticallyAdjustsScrollIndicatorInsets]
++[RNCWebViewManager propConfig_contentMode]
++[RNCWebViewManager propConfig_limitsNavigationsToAppBoundDomains]
++[RNCWebViewManager propConfig_messagingEnabled]
++[RNCWebViewManager propConfig_onMessage]
++[RNCWebViewManager propConfig_onScroll]
++[RNCWebViewManager propConfig_enableApplePay]
++[RNCWebViewManager __rct_export__1040]
+-[RNCWebViewManager postMessage:message:]
+___41-[RNCWebViewManager postMessage:message:]_block_invoke
+___copy_helper_block_e8_32s40s
++[RNCWebViewManager propConfig_pullToRefreshEnabled]
+-[RNCWebViewManager set_pullToRefreshEnabled:forView:withDefaultView:]
++[RNCWebViewManager propConfig_bounces]
+-[RNCWebViewManager set_bounces:forView:withDefaultView:]
++[RNCWebViewManager propConfig_useSharedProcessPool]
+-[RNCWebViewManager set_useSharedProcessPool:forView:withDefaultView:]
++[RNCWebViewManager propConfig_scrollEnabled]
+-[RNCWebViewManager set_scrollEnabled:forView:withDefaultView:]
++[RNCWebViewManager propConfig_sharedCookiesEnabled]
+-[RNCWebViewManager set_sharedCookiesEnabled:forView:withDefaultView:]
++[RNCWebViewManager propConfig_decelerationRate]
+-[RNCWebViewManager set_decelerationRate:forView:withDefaultView:]
++[RNCWebViewManager propConfig_directionalLockEnabled]
+-[RNCWebViewManager set_directionalLockEnabled:forView:withDefaultView:]
++[RNCWebViewManager propConfig_showsHorizontalScrollIndicator]
+-[RNCWebViewManager set_showsHorizontalScrollIndicator:forView:withDefaultView:]
++[RNCWebViewManager propConfig_showsVerticalScrollIndicator]
+-[RNCWebViewManager set_showsVerticalScrollIndicator:forView:withDefaultView:]
++[RNCWebViewManager propConfig_keyboardDisplayRequiresUserAction]
+-[RNCWebViewManager set_keyboardDisplayRequiresUserAction:forView:withDefaultView:]
++[RNCWebViewManager __rct_export__1581]
+-[RNCWebViewManager injectJavaScript:script:]
+___45-[RNCWebViewManager injectJavaScript:script:]_block_invoke
++[RNCWebViewManager __rct_export__1702]
+-[RNCWebViewManager goBack:]
+___28-[RNCWebViewManager goBack:]_block_invoke
++[RNCWebViewManager __rct_export__1823]
+-[RNCWebViewManager goForward:]
+___31-[RNCWebViewManager goForward:]_block_invoke
++[RNCWebViewManager __rct_export__1944]
+-[RNCWebViewManager reload:]
+___28-[RNCWebViewManager reload:]_block_invoke
++[RNCWebViewManager __rct_export__2065]
+-[RNCWebViewManager stopLoading:]
+___33-[RNCWebViewManager stopLoading:]_block_invoke
+-[RNCWebViewManager webView:shouldStartLoadForRequest:withCallback:]
++[RNCWebViewManager __rct_export__2416]
+-[RNCWebViewManager startLoadWithResult:lockIdentifier:]
+-[RNCWebViewManager .cxx_destruct]
+_WKContentMode:.mapping
+_WKContentMode:.onceToken
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_SELECTOR_REFERENCES_.11
+__OBJC_$_CATEGORY_CLASS_METHODS_RCTConvert_$_WKWebView
+__OBJC_$_CATEGORY_RCTConvert_$_WKWebView
+_OBJC_CLASSLIST_REFERENCES_$_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_CLASSLIST_REFERENCES_$_.22
+___rct_export__1040.config
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.48
+___block_descriptor_48_e8_32s40s_e39_v24?0"RCTUIManager"8"NSDictionary"16l
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_CLASSLIST_REFERENCES_$_.59
+_OBJC_SELECTOR_REFERENCES_.61
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+___rct_export__1581.config
+_OBJC_SELECTOR_REFERENCES_.88
+___rct_export__1702.config
+_OBJC_SELECTOR_REFERENCES_.91
+___block_descriptor_40_e8_32s_e39_v24?0"RCTUIManager"8"NSDictionary"16l
+___rct_export__1823.config
+___rct_export__1944.config
+___rct_export__2065.config
+_OBJC_CLASSLIST_REFERENCES_$_.101
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_IVAR_$_RNCWebViewManager._shouldStartLoadLock
+_OBJC_IVAR_$_RNCWebViewManager._shouldStartLoad
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_SELECTOR_REFERENCES_.109
+_OBJC_CLASSLIST_REFERENCES_$_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.116
+___rct_export__2416.config
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.123
+__OBJC_$_CLASS_METHODS_RNCWebViewManager
+__OBJC_$_PROTOCOL_REFS_RNCWebViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_RNCWebViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_RNCWebViewDelegate
+__OBJC_PROTOCOL_$_RNCWebViewDelegate
+__OBJC_LABEL_PROTOCOL_$_RNCWebViewDelegate
+__OBJC_CLASS_PROTOCOLS_$_RNCWebViewManager
+__OBJC_METACLASS_RO_$_RNCWebViewManager
+__OBJC_$_INSTANCE_METHODS_RNCWebViewManager
+__OBJC_$_INSTANCE_VARIABLES_RNCWebViewManager
+__OBJC_$_PROP_LIST_RNCWebViewManager
+__OBJC_CLASS_RO_$_RNCWebViewManager
+/Users/xujia/Desktop/Hycan/HycanReactNative/node_modules/react-native-webview/apple/RNCWebViewManager.m
+node_modules/react-native-webview/apple/RNCWebViewManager.m
+__33-[RNCWebViewManager stopLoading:]_block_invoke
+__28-[RNCWebViewManager reload:]_block_invoke
+__31-[RNCWebViewManager goForward:]_block_invoke
+__28-[RNCWebViewManager goBack:]_block_invoke
+__45-[RNCWebViewManager injectJavaScript:script:]_block_invoke
+__copy_helper_block_e8_32s40s
+__41-[RNCWebViewManager postMessage:message:]_block_invoke
+__39+[RCTConvert(WKWebView) WKContentMode:]_block_invoke
++[RNCWKProcessPoolManager sharedManager]
+-[RNCWKProcessPoolManager sharedProcessPool]
+-[RNCWKProcessPoolManager .cxx_destruct]
+_sharedManager._sharedManager
+_OBJC_SELECTOR_REFERENCES_.2
+__OBJC_$_CLASS_METHODS_RNCWKProcessPoolManager
+__OBJC_METACLASS_RO_$_RNCWKProcessPoolManager
+__OBJC_$_INSTANCE_METHODS_RNCWKProcessPoolManager
+_OBJC_IVAR_$_RNCWKProcessPoolManager._sharedProcessPool
+__OBJC_$_INSTANCE_VARIABLES_RNCWKProcessPoolManager
+__OBJC_CLASS_RO_$_RNCWKProcessPoolManager
+/Users/xujia/Desktop/Hycan/HycanReactNative/node_modules/react-native-webview/apple/RNCWKProcessPoolManager.m
+node_modules/react-native-webview/apple/RNCWKProcessPoolManager.m

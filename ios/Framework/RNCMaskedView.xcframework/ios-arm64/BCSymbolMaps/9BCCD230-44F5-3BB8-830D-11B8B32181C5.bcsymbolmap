@@ -1,0 +1,33 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk
+iPhoneOS14.5.sdk
+/Users/xujia/Library/Developer/Xcode/DerivedData/HycanReactNative-advhuniyxrhmiehcytlqfbncydbe/Build/Intermediates.noindex/ArchiveIntermediates/RNCMaskedView/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/RNCMaskedView.build/DerivedSources/RNCMaskedView_vers.c
+/Users/xujia/Desktop/Hycan/HycanReactNative/ios/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_RNCMaskedView
+__OBJC_CLASS_RO_$_PodsDummy_RNCMaskedView
+/Users/xujia/Desktop/Hycan/HycanReactNative/ios/Pods/Target Support Files/RNCMaskedView/RNCMaskedView-dummy.m
+-[RNCMaskedView didUpdateReactSubviews]
+-[RNCMaskedView displayLayer:]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+__OBJC_METACLASS_RO_$_RNCMaskedView
+__OBJC_$_INSTANCE_METHODS_RNCMaskedView
+__OBJC_CLASS_RO_$_RNCMaskedView
+/Users/xujia/Desktop/Hycan/HycanReactNative/node_modules/@react-native-masked-view/masked-view/ios/RNCMaskedView.m
+node_modules/@react-native-masked-view/masked-view/ios/RNCMaskedView.m
+/Users/xujia/Desktop/Hycan/HycanReactNative
++[RNCMaskedViewManager moduleName]
++[RNCMaskedViewManager load]
+-[RNCMaskedViewManager view]
+_OBJC_CLASSLIST_REFERENCES_$_
+__OBJC_$_CLASS_METHODS_RNCMaskedViewManager
+__OBJC_METACLASS_RO_$_RNCMaskedViewManager
+__OBJC_$_INSTANCE_METHODS_RNCMaskedViewManager
+__OBJC_CLASS_RO_$_RNCMaskedViewManager
+/Users/xujia/Desktop/Hycan/HycanReactNative/node_modules/@react-native-masked-view/masked-view/ios/RNCMaskedViewManager.m
+node_modules/@react-native-masked-view/masked-view/ios/RNCMaskedViewManager.m
