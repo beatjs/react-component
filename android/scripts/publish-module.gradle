@@ -1,0 +1,36 @@
+apply plugin: "maven"
+
+ext["ossrhUsername"] = ''
+ext["ossrhPassword"] = ''
+
+File secretPropsFile = project.rootProject.file('local.properties')
+if (secretPropsFile.exists()) {
+    Properties p = new Properties()
+    new FileInputStream(secretPropsFile).withCloseable { is -> p.load(is) }
+    p.each { name, value ->
+        ext[name] = value
+    }
+} else {
+    ext["OSS_USERNAME"] = System.getenv('OSS_USERNAME')
+    ext["OSS_PASSWORD"] = System.getenv('OSS_PASSWORD')
+}
+
+
+logger.quiet("project:$project.name GROUP_ID:$GROUP_ID")
+logger.quiet(">>> OSS_REPOSITORY_URL:$OSS_REPOSITORY_URL")
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: OSS_REPOSITORY_URL) {
+                authentication(userName: OSS_USERNAME, password: OSS_PASSWORD)
+            }
+            pom.project {
+                artifactId project.name
+                version VERSION_NAME
+                groupId GROUP_ID
+                packaging 'aar'
+            }
+        }
+    }
+}

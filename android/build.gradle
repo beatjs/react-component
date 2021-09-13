@@ -61,3 +61,8 @@ repositories {
 dependencies {
     implementation 'com.github.beatjs:react-android:0.63.4.1'
 }
+
+
+subprojects {
+    apply from:"$rootDir/scripts/publish-module.gradle"
+}
