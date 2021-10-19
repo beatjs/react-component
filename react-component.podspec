@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'react-component'
-  s.version = '1.4.2'
+  s.version = '1.5.0'
   s.summary = 'An runtime base on react-native.'
   s.description = 
 	<<-DESC
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     'ios/Framework/RNScreens.xcframework',
     'ios/Framework/RNSentry.xcframework',
     'ios/Framework/RNVectorIcons.xcframework'
-  s.dependency 'react-ios', '~> 0.63.4.4'
+  s.dependency 'react-ios', '~> 0.64.2.0'
   s.dependency 'Sentry', '~> 7.1.0'
   s.dependency 'SDWebImage', '~> 5.8'
   s.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
