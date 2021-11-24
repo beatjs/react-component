@@ -38,19 +38,19 @@ android {
 }
 
 repositories {
-    mavenCentral()
     google()
     jcenter()
-    maven { url 'https://jitpack.io' }
+    mavenCentral()
 }
 
 def safeExtGet(prop, fallback) {
     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
 }
+
 def _glideVersion = safeExtGet("glideVersion", "4.11.0")
 
 dependencies {
-    implementation 'com.github.beatjs:react-android:0.63.4.1'
+    implementation 'com.beatjs.android:react-native:0.64.2.0'
     implementation "androidx.core:core:1.0.0"
     implementation "androidx.appcompat:appcompat:1.0.0"
     implementation "androidx.annotation:annotation:1.0.0"
@@ -60,3 +60,5 @@ dependencies {
     annotationProcessor "com.github.bumptech.glide:compiler:${_glideVersion}"
     implementation("com.github.bumptech.glide:okhttp3-integration:${_glideVersion}")
 }
+
+apply from:'release.gradle'

@@ -29,12 +29,13 @@ android {
 }
 
 repositories {
-    mavenCentral()
     google()
     jcenter()
-    maven { url 'https://jitpack.io' }
+    mavenCentral()
 }
 
 dependencies {
-    implementation 'com.github.beatjs:react-android:0.63.4.1'
+    implementation 'com.beatjs.android:react-native:0.64.2.0'
 }
+
+apply from:'release.gradle'
