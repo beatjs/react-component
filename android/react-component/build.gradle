@@ -1,0 +1,57 @@
+plugins {
+    id 'com.android.library'
+}
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.beatjs.android:react-native:0.64.2.0'
+    implementation 'com.beatjs.android:react-native-blur:1.5.1'
+    implementation 'com.beatjs.android:react-native-device-info:1.5.1'
+    implementation 'com.beatjs.android:react-native-fast-image:1.5.1'
+    implementation 'com.beatjs.android:react-native-gesture-handler:1.5.1'
+    implementation 'com.beatjs.android:react-native-get-random-values:1.5.1'
+    implementation 'com.beatjs.android:react-native-image-resizer:1.5.1'
+    implementation 'com.beatjs.android:react-native-linear-gradient:1.5.1'
+    implementation 'com.beatjs.android:react-native-lottie:1.5.1'
+    implementation 'com.beatjs.android:react-native-masked-view:1.5.1'
+    implementation 'com.beatjs.android:react-native-pager-view:1.5.1'
+    implementation 'com.beatjs.android:react-native-reanimated:1.5.1'
+    implementation 'com.beatjs.android:react-native-safe-area-context:1.5.1'
+    implementation 'com.beatjs.android:react-native-screens:1.5.1'
+    implementation 'com.beatjs.android:react-native-sentry:1.5.1'
+    implementation 'com.beatjs.android:react-native-vector-icons:1.5.1'
+    implementation 'com.beatjs.android:react-native-video:1.5.1'
+    implementation 'com.beatjs.android:react-native-webview:1.5.1'
+}
+
+apply from:'release.gradle'

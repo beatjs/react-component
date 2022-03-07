@@ -33,7 +33,7 @@ uploadArchives {
 
             pom.groupId = "com.beatjs.android"
             pom.artifactId = "react-native-linear-gradient"
-            pom.version = "1.5.0"
+            pom.version = "1.5.1"
 
             pom.project {
                 name 'react-component'
