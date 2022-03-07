@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'react-component'
-  s.version = '1.5.0'
+  s.version = '1.5.1'
   s.summary = 'An runtime base on react-native.'
   s.description = 
 	<<-DESC
@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.header_dir = 'ReactComponent'
   s.swift_version = '5.0'
   s.ios.deployment_target = '11.0'
-
   s.vendored_frameworks = 
     'ios/Framework/BVLinearGradient.xcframework',
     'ios/Framework/lottie_react_native.xcframework',
     'ios/Framework/Lottie.xcframework',
+    'ios/Framework/react_native_blur.xcframework',
     'ios/Framework/react_native_get_random_values.xcframework',
     'ios/Framework/react_native_image_resizer.xcframework',
     'ios/Framework/react_native_pager_view.xcframework',
