@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'react-component'
-  s.version = '1.5.1'
+  s.version = '1.6.0'
   s.summary = 'An runtime base on react-native.'
   s.description = 
 	<<-DESC
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
     'ios/Framework/react_native_pager_view.xcframework',
     'ios/Framework/react_native_safe_area_context.xcframework',
     'ios/Framework/react_native_video.xcframework',
+    'ios/Framework/react_native_view_shot.xcframework',
     'ios/Framework/react_native_webview.xcframework',
     'ios/Framework/RNCMaskedView.xcframework',
     'ios/Framework/RNDeviceInfo.xcframework',
@@ -33,6 +34,7 @@ Pod::Spec.new do |s|
     'ios/Framework/RNReanimated.xcframework',
     'ios/Framework/RNScreens.xcframework',
     'ios/Framework/RNSentry.xcframework',
+    'ios/Framework/RNSVG.xcframework',
     'ios/Framework/RNVectorIcons.xcframework'
   s.dependency 'react-ios', '~> 0.64.2.0'
   s.dependency 'Sentry', '~> 7.1.0'
