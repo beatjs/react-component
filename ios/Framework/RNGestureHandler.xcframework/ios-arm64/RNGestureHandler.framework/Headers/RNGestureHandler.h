@@ -1,6 +1,8 @@
+#import "RNGestureHandlerActionType.h"
 #import "RNGestureHandlerState.h"
 #import "RNGestureHandlerDirection.h"
 #import "RNGestureHandlerEvents.h"
+#import "RNGestureHandlerPointerTracker.h"
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -15,7 +17,7 @@
 
 #define APPLY_PROP(recognizer, config, type, prop, propName) do { \
 id value = config[propName]; \
-if (value != nil) recognizer.prop = [RCTConvert type:value]; \
+if (value != nil) { recognizer.prop = [RCTConvert type:value]; }\
 } while(0)
 
 #define APPLY_FLOAT_PROP(prop) do { APPLY_PROP(recognizer, config, CGFloat, prop, @#prop); } while(0)
@@ -24,9 +26,7 @@ if (value != nil) recognizer.prop = [RCTConvert type:value]; \
 
 @protocol RNGestureHandlerEventEmitter
 
-- (void)sendTouchEvent:(nonnull RNGestureHandlerEvent *)event;
-
-- (void)sendStateChangeEvent:(nonnull RNGestureHandlerStateChange *)event;
+- (void)sendEvent:(nonnull RNGestureHandlerStateChange *)event withActionType:(RNGestureHandlerActionType)actionType;
 
 @end
 
@@ -34,7 +34,7 @@ if (value != nil) recognizer.prop = [RCTConvert type:value]; \
 @protocol RNRootViewGestureRecognizerDelegate <UIGestureRecognizerDelegate>
 
 - (void)gestureRecognizer:(nullable UIGestureRecognizer *)gestureRecognizer
-    didActivateInRootView:(nullable UIView *)rootView;
+    didActivateInViewWithTouchHandler:(nullable UIView *)viewWithTouchHandler;
 
 @end
 
@@ -53,21 +53,30 @@ if (value != nil) recognizer.prop = [RCTConvert type:value]; \
 @property (nonatomic, readonly, nonnull) NSNumber *tag;
 @property (nonatomic, weak, nullable) id<RNGestureHandlerEventEmitter> emitter;
 @property (nonatomic, readonly, nullable) UIGestureRecognizer *recognizer;
+@property (nonatomic, readonly, nullable) RNGestureHandlerPointerTracker *pointerTracker;
 @property (nonatomic) BOOL enabled;
-@property(nonatomic) BOOL shouldCancelWhenOutside;
+@property (nonatomic) RNGestureHandlerActionType actionType;
+@property (nonatomic) BOOL shouldCancelWhenOutside;
+@property (nonatomic) BOOL needsPointerData;
+@property (nonatomic) BOOL manualActivation;
 
 - (void)bindToView:(nonnull UIView *)view;
 - (void)unbindFromView;
+- (void)resetConfig NS_REQUIRES_SUPER;
 - (void)configure:(nullable NSDictionary *)config NS_REQUIRES_SUPER;
 - (void)handleGesture:(nonnull id)recognizer;
 - (BOOL)containsPointInView;
 - (RNGestureHandlerState)state;
 - (nullable RNGestureHandlerEventExtraData *)eventExtraData:(nonnull id)recognizer;
 
+- (void)stopActivationBlocker;
 - (void)reset;
 - (void)sendEventsInState:(RNGestureHandlerState)state
            forViewWithTag:(nonnull NSNumber *)reactTag
-            withExtraData:(RNGestureHandlerEventExtraData *)extraData;
+            withExtraData:(nonnull RNGestureHandlerEventExtraData *)extraData;
+- (void)sendEvent:(nonnull RNGestureHandlerStateChange *)event;
+- (void)sendTouchEventInState:(RNGestureHandlerState)state
+                 forViewWithTag:(nonnull NSNumber *)reactTag;
 
 @end
 
