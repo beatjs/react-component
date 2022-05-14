@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z8kiA/vZBBgRHyfJ/z1xMHAXxVo=
+		IyhnHD7EyLOosTzc/lyEyUWlz8c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -37,10 +37,6 @@
 	<dict>
 		<key>Headers/FFFastImageSource.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IwGNYX+Jbd1V9VTzog27HLADSPw=
-			</data>
 			<key>hash2</key>
 			<data>
 			6FBOxBsp45F6a6Q7CR5MnNsom86uYIU4vZZrHYJWDgY=
@@ -48,10 +44,6 @@
 		</dict>
 		<key>Headers/FFFastImageView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6Oqi1tVBREACnotE8PdVs6zKVyA=
-			</data>
 			<key>hash2</key>
 			<data>
 			WQvRGl1av6GLQwJI8/610shHIZ/XLZrFbYydnidz1qU=
@@ -59,10 +51,6 @@
 		</dict>
 		<key>Headers/FFFastImageViewManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1pxsP2fdHP4jxB+wrPA41iqvTBI=
-			</data>
 			<key>hash2</key>
 			<data>
 			GcZDdPzC9OTz4eIob40p1I7tnGr5G3qOMHO+9a+U4So=
@@ -70,10 +58,6 @@
 		</dict>
 		<key>Headers/RCTConvert+FFFastImage.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ah15vtRQX8HIe3Al9sWFZucVuP0=
-			</data>
 			<key>hash2</key>
 			<data>
 			l8e5Cx9o9KfJqlBpg61NYKNFzOB9hJVRj92YA1NZsFk=
@@ -81,10 +65,6 @@
 		</dict>
 		<key>Headers/RNFastImage-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZPEGSOyoQc9BdbuWT7mOT/iVDHI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ENLgW8NHeNor11vdmOjNk5ZatLGDlwa5o+cjnjY7IxE=
@@ -92,10 +72,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			CCdN5Ek2+MI5LXYLKeHFN9inwYo=
-			</data>
 			<key>hash2</key>
 			<data>
 			9vj724d90Ku1NMI+peBGyfOkvHbloTYiqLEdtFzZPc4=

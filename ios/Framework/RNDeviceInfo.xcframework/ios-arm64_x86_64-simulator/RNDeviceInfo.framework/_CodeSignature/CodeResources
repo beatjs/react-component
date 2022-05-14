@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+vT91N4ogpsXl3ypBNCmKLJFqR8=
+		cE7bmr320vvEJNOrWot9WbsxwTY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,10 +33,6 @@
 	<dict>
 		<key>Headers/DeviceUID.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0A8e0z4dHhmZZxGMMIHwUE9eoCw=
-			</data>
 			<key>hash2</key>
 			<data>
 			kDtdRIFkvjicxdMygPn02jKLICgx6zOASQtl0ABErT0=
@@ -44,10 +40,6 @@
 		</dict>
 		<key>Headers/EnvironmentUtil.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3fCDWZp9kRuv7kVvkXLgxxhfThw=
-			</data>
 			<key>hash2</key>
 			<data>
 			G/Nn/7avmhglde3NMDGYkAA9SoDUdYnp+65+O95rBdc=
@@ -55,10 +47,6 @@
 		</dict>
 		<key>Headers/RNDeviceInfo-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YLTAKNRO1Lan9HsNi/jhqKmww28=
-			</data>
 			<key>hash2</key>
 			<data>
 			of/DOWYfQegcXvvGm/QqlOLvDIaclTG9gjZ6Qq5bpgE=
@@ -66,10 +54,6 @@
 		</dict>
 		<key>Headers/RNDeviceInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R8Bpc0Vh3nWd2H2cb+v1C9PQzQ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			zeBQDtVNlEPGDF7rLORFSce+grUwJ5k7ib9sBx0WsmA=
@@ -77,10 +61,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hozU/OIrZV5WGHwEm9yLcjJatGU=
-			</data>
 			<key>hash2</key>
 			<data>
 			uQoVqZ+N7Revte89pp9PcQp39lRzB1LDm2bWor86J04=

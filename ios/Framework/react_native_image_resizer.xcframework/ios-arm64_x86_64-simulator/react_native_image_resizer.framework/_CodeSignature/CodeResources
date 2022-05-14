@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hwG89Wn33oq50DUOZ5L7mO2uZUg=
+		GtflWt1dmy+tfihYJXEdiFhWH0o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,10 +29,6 @@
 	<dict>
 		<key>Headers/ImageHelpers.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/9Zoz/VmXg6qfwxNLRIKu6q4whw=
-			</data>
 			<key>hash2</key>
 			<data>
 			d0otA7rva7S4Rzpcu0eMm/xPXw8JlZ79tsufkQc5Jzk=
@@ -40,10 +36,6 @@
 		</dict>
 		<key>Headers/RCTImageResizer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hMkUfcf+9IXhN6M237/0ueeQaHI=
-			</data>
 			<key>hash2</key>
 			<data>
 			ydtW3/q78jOpBofEz239kSanaacFE7pFo/DpEtsyn8E=
@@ -51,10 +43,6 @@
 		</dict>
 		<key>Headers/react-native-image-resizer-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			pyLIT/+K9kTLBrS3yhbVe/bhNDE=
-			</data>
 			<key>hash2</key>
 			<data>
 			ANmvGl8eOp5I3m0U029f7erpP8Kv5yWB4ktYt9yeU+k=
@@ -62,10 +50,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p7gy4p3aeUP/pjF4ISGrFGcVqMM=
-			</data>
 			<key>hash2</key>
 			<data>
 			v0vV2QLq8CbchYVbVS2ukg7EEkbH+xFYeegrJpfpr2k=

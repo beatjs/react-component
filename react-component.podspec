@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'react-component'
-  s.version = '1.7.0'
+  s.version = '2.0.0'
   s.summary = 'An runtime base on react-native.'
   s.description = 
 	<<-DESC
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 
     'ios/Framework/BVLinearGradient.xcframework',
     'ios/Framework/lottie_react_native.xcframework',
-    'ios/Framework/Lottie.xcframework',
     'ios/Framework/react_native_blur.xcframework',
     'ios/Framework/react_native_get_random_values.xcframework',
     'ios/Framework/react_native_image_resizer.xcframework',
@@ -34,14 +33,14 @@ Pod::Spec.new do |s|
     'ios/Framework/RNReanimated.xcframework',
     'ios/Framework/RNScreens.xcframework',
     'ios/Framework/RNSentry.xcframework',
-    'ios/Framework/RNSVG.xcframework',
-    'ios/Framework/RNVectorIcons.xcframework'
-  s.dependency 'react-ios', '~> 0.64.2.0'
-  s.dependency 'Sentry', '~> 7.1.0'
-  s.dependency 'SDWebImage', '~> 5.8'
-  s.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
+    'ios/Framework/RNSVG.xcframework'
+  s.dependency 'react-ios', '~> 0.67.4.5'
+  s.dependency 'lottie-ios', '~> 3.2.3'
+  s.dependency 'Sentry', '~> 7.11.0'
+  s.dependency 'SDWebImage', '~> 5.11.1'
+  s.dependency 'SDWebImageWebPCoder', '~> 0.8.4'
   s.dependency 'SPTPersistentCache', '~> 1.1.0'
-  s.dependency 'DVAssetLoaderDelegate', '~> 0.3.1'
+  s.dependency 'DVAssetLoaderDelegate', '~> 0.3.3'
   
 end
 

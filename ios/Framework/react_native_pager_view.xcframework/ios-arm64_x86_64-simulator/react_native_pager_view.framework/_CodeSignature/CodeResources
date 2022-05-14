@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/ReactNativePageView.h</key>
 		<data>
-		XLS7gunAx12vLcYbxoxHZ1/JQtU=
+		av/mqJwsP8FzHkspn7w0fjkpXzg=
 		</data>
 		<key>Headers/ReactViewPagerManager.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Wh2jvXr+kViEbuR8D4T9nOMQceE=
+		nKpVpBw8UJmyDx4eQA5A4Q1xnnw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,10 +53,6 @@
 	<dict>
 		<key>Headers/RCTConvert+UIPageViewControllerNavigationOrientation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nC/NV7CcHRd7l7aAGzIcGPof/6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			MkwLz3ZXHnJKZP0Fxb3t0KsT8tSDg9RWQfeEBH1y4Is=
@@ -64,10 +60,6 @@
 		</dict>
 		<key>Headers/RCTConvert+UIPageViewControllerTransitionStyle.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4TamM28JC9i+p5zOJamxIq6CGD0=
-			</data>
 			<key>hash2</key>
 			<data>
 			smcuAg9vlAlMwJO5LQd764T92w49yIXOIbVMtWpQ1Sg=
@@ -75,10 +67,6 @@
 		</dict>
 		<key>Headers/RCTOnPageScrollEvent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MpwmeiWvhYhhEWnGNouFbKqj4Kk=
-			</data>
 			<key>hash2</key>
 			<data>
 			vTJBWHZP9jfxNPt3wkRgVxNni49W0iyBJvhUxzDe3fE=
@@ -86,10 +74,6 @@
 		</dict>
 		<key>Headers/RCTOnPageScrollStateChanged.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TJmzw3APe/GGjjBBl8aym4MG5uc=
-			</data>
 			<key>hash2</key>
 			<data>
 			jSNLLFY+eemZUy663Kh72iyw1A7B4FbqfJplL7zL92c=
@@ -97,10 +81,6 @@
 		</dict>
 		<key>Headers/RCTOnPageSelected.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			l+JPSVGEEu9wxplBuNUo5bagKZ4=
-			</data>
 			<key>hash2</key>
 			<data>
 			v92a8zDJ8Nm0wXptnEjsgRwQXAm2VonoS8hAdo0oIcQ=
@@ -108,21 +88,13 @@
 		</dict>
 		<key>Headers/ReactNativePageView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XLS7gunAx12vLcYbxoxHZ1/JQtU=
-			</data>
 			<key>hash2</key>
 			<data>
-			2g4tAr/8+4ddm79GzO3BnCLmm96X6Z8lYw6Yz3mcbJA=
+			1CHsUlkFkkZEf2lBz75JKk1LkRRhs+MpqOYEHKALtm4=
 			</data>
 		</dict>
 		<key>Headers/ReactViewPagerManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SzR7Y4KXDOFmFWxd0nQ6iack1sc=
-			</data>
 			<key>hash2</key>
 			<data>
 			lg18Ks7lYTfZV0DiWy0PRovCLf9p7zcVmdt2EzRkUvo=
@@ -130,10 +102,6 @@
 		</dict>
 		<key>Headers/UIViewController+CreateExtension.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nNeZps72FDZ1JOn7udzNbRQcyIY=
-			</data>
 			<key>hash2</key>
 			<data>
 			tAyk04jQqrSYLS+NPQV5QX/4QD1BpIobP0Et2lg89+c=
@@ -141,10 +109,6 @@
 		</dict>
 		<key>Headers/react-native-pager-view-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eBknhwSuzF2QNs+wATLoaMhtuxs=
-			</data>
 			<key>hash2</key>
 			<data>
 			6VxEIEi90EtBHJ74THfgCI9BgnlOJaUW9o97HYIzieQ=
@@ -152,10 +116,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gIstcPYIOkkmHZk5iyzlkDpEU94=
-			</data>
 			<key>hash2</key>
 			<data>
 			bzBw8ygDvaidgEF9QuW+YFF3mjyF7pggKkRs11I1f80=

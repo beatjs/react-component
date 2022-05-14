@@ -4,9 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/RCTView+SafeAreaCompat.h</key>
+		<key>Headers/RNCSafeAreaContext.h</key>
 		<data>
-		r56iQ2qayAl42HuEO3r3ijPAB10=
+		gmdqxjvQACYdJkGfGkT7dS3/ZNs=
 		</data>
 		<key>Headers/RNCSafeAreaProvider.h</key>
 		<data>
@@ -20,17 +20,21 @@
 		<data>
 		aUsKe9OOZEYapao31AxC3V+p3PA=
 		</data>
+		<key>Headers/RNCSafeAreaUtils.h</key>
+		<data>
+		JOV0xVrG1fwk6cZlnv79RcJ9qlo=
+		</data>
 		<key>Headers/RNCSafeAreaView.h</key>
 		<data>
-		vD+un9ZfbWT8ffDD8pr37UuBwOk=
+		MCYYUtiyXqv0QEdJ5GO8E7lHAtU=
 		</data>
 		<key>Headers/RNCSafeAreaViewEdges.h</key>
 		<data>
-		8yJen+yE7EOof3Utg4xLZ87eMhE=
+		2TvYHs4McJnYxoMMmeNsPnG13yo=
 		</data>
 		<key>Headers/RNCSafeAreaViewLocalData.h</key>
 		<data>
-		C3GVdeJsPBhAF3/AIpN6qF3sOso=
+		KuzptMP2fdIOIvF0gfEg2WT/z2I=
 		</data>
 		<key>Headers/RNCSafeAreaViewManager.h</key>
 		<data>
@@ -42,11 +46,11 @@
 		</data>
 		<key>Headers/react-native-safe-area-context-umbrella.h</key>
 		<data>
-		ilQB8C6HBpoOyJ5rf7xK9keYyOU=
+		00/k4hZ+7kgaHGv/X4MiqqvOPuo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EXhnTwhZv8jczmu3v62tlXI1TfY=
+		4Zfw/DIe0DTOKvJ9QsEZMnp1wYg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,23 +59,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/RCTView+SafeAreaCompat.h</key>
+		<key>Headers/RNCSafeAreaContext.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r56iQ2qayAl42HuEO3r3ijPAB10=
-			</data>
 			<key>hash2</key>
 			<data>
-			TGS+YBEnS6mZABtX2xBQyHn8J7iszCdKtonbc3fJMbY=
+			tJlQ9X2lJaJngJ3vWkfUHrWSvslvhLifyVe9L7cT2So=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaProvider.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T5iCDLBkkUDdA5Xnqk8aPyAsplA=
-			</data>
 			<key>hash2</key>
 			<data>
 			hmVUJFZ4V9LngEoieDQZVgGhb20DdggKFwr1mAtivl4=
@@ -79,10 +75,6 @@
 		</dict>
 		<key>Headers/RNCSafeAreaProviderManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KpFa8opRuXS/KhZs+HTY3QjIPNY=
-			</data>
 			<key>hash2</key>
 			<data>
 			i0DMwWVza6anfxHmXMIQCpb482cWn50Y1tFKWc77ZiU=
@@ -90,54 +82,41 @@
 		</dict>
 		<key>Headers/RNCSafeAreaShadowView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aUsKe9OOZEYapao31AxC3V+p3PA=
-			</data>
 			<key>hash2</key>
 			<data>
 			La5uKJBZvSYyVqoyCOSS31HlC8E5hpm6veuM3bnARVU=
 			</data>
 		</dict>
-		<key>Headers/RNCSafeAreaView.h</key>
+		<key>Headers/RNCSafeAreaUtils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vD+un9ZfbWT8ffDD8pr37UuBwOk=
-			</data>
 			<key>hash2</key>
 			<data>
-			u3VWhpqs0UxII5uv5m0PrBLZ57EUCSk5KfZ7SInQswM=
+			ZaRwNjg6ykaqlPTDDyAIDO3+gb1HTnpI0B65/kS5Vzs=
+			</data>
+		</dict>
+		<key>Headers/RNCSafeAreaView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Eyn3c0Fu+bWk1s2lD++5bpVpL3Q2y4J3f5mwOQHWr3U=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaViewEdges.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8yJen+yE7EOof3Utg4xLZ87eMhE=
-			</data>
 			<key>hash2</key>
 			<data>
-			VJqroyPuiDuI7kf/ylCobo+/Pc40pkkn+lTMxNZkZ4k=
+			CFdF2o1VOMae8fUG1dqfomab0lR8ALv07hw5SK5Ng00=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaViewLocalData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C3GVdeJsPBhAF3/AIpN6qF3sOso=
-			</data>
 			<key>hash2</key>
 			<data>
-			2yLbuE+ipH3TAoaOfy/Mme2Vyin3/AOHIdgW25gXeFc=
+			QlMVZaszld7Vzjsr0b5e/VE3DUFSw3/Mr/aKd+6JPLg=
 			</data>
 		</dict>
 		<key>Headers/RNCSafeAreaViewManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I5gBWmCZNTWtvO4InXgAJ502mBc=
-			</data>
 			<key>hash2</key>
 			<data>
 			HRZBQ9usQF6Sj4YNAztCkyOxqIL5HibucalaCY9B6nY=
@@ -145,10 +124,6 @@
 		</dict>
 		<key>Headers/RNCSafeAreaViewMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPmZ+3aoTLpRmsohq4fG+/pg/Cw=
-			</data>
 			<key>hash2</key>
 			<data>
 			8X1dEVN3aF1NtVXB9XJ7mtoV1umRF3a7Z2BQtTy/xJo=
@@ -156,21 +131,13 @@
 		</dict>
 		<key>Headers/react-native-safe-area-context-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ilQB8C6HBpoOyJ5rf7xK9keYyOU=
-			</data>
 			<key>hash2</key>
 			<data>
-			ZSr242FXkBRUMG3F9tMFLQRiXqZ8/8g+pUTo7MQe6UI=
+			X31n0ckvJCl/4bJmhjqAnMxXucN1GbSLc81GK5OWOKw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			NiXBtZcj+bLqAbxlYP3sfMk9M8s=
-			</data>
 			<key>hash2</key>
 			<data>
 			FQ6gdys0kiPwXk7vneNrlDSzK7AyWoJQwyY5HmS7rJE=
