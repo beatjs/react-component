@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jMOWZ3AKStmkr28NalLwn8C5Y1Y=
+		pVoawV38YM1ZrH6Rles6f+eMqBY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -25,10 +25,6 @@
 	<dict>
 		<key>Headers/RNSentry-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IWutFeDtisGyVdYKvzWiMy0JDs0=
-			</data>
 			<key>hash2</key>
 			<data>
 			pbGUAekzINxL1ovQ3I9SGrcLOeD8lHFZcGGWAvXO1l0=
@@ -36,10 +32,6 @@
 		</dict>
 		<key>Headers/RNSentry.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OgMuZFX+wn1YtRFRbmD/sKCj3Nw=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qkh7seg4Cu4tjAwxgoTI5GwbtLE3W/QCIRpoTmkDvdQ=
@@ -47,10 +39,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sV6biHWpZqkPJwQxJ8UnBVwOiiI=
-			</data>
 			<key>hash2</key>
 			<data>
 			n2gMRJ/9m28LO7eDEj2n64tnJK5EJ+IdOXC4ncIdYN8=

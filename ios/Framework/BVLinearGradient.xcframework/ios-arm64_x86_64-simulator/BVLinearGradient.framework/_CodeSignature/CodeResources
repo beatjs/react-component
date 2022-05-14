@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zJNF+CMqezyDGmjOQGhprQ7OCDE=
+		yCgCq7r+xKJlTY7x8XeiTeDxzUI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,10 +33,6 @@
 	<dict>
 		<key>Headers/BVLinearGradient-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qxeqizRe17LqXBJlAdFWG6K9Y1k=
-			</data>
 			<key>hash2</key>
 			<data>
 			E1dBYDqHVXcOBUkN+YIYY1oRS7AkQQuQih02vLSGif4=
@@ -44,10 +40,6 @@
 		</dict>
 		<key>Headers/BVLinearGradient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YGytUUKgZj0vbIMb66QGBEbKS4A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Jtjj746UQQIgczJ9o/6T+lGfbQxPz9PGna832xiP4Gs=
@@ -55,10 +47,6 @@
 		</dict>
 		<key>Headers/BVLinearGradientLayer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jGCXuJLjl/K+KriOzoPQlOOHrpo=
-			</data>
 			<key>hash2</key>
 			<data>
 			nezJC9eJipcPjCZ2+5rEhGMl8geDP4gPpcu9PEYlJh4=
@@ -66,10 +54,6 @@
 		</dict>
 		<key>Headers/BVLinearGradientManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BK1Rx27FC6xzohav963c1so6KCs=
-			</data>
 			<key>hash2</key>
 			<data>
 			mbw6nsHB57KzaHggBtpOgGAFodZCfwky+HnUSb6qaYE=
@@ -77,10 +61,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uRymoNmo8Dy77e61KTEAQAC4q0E=
-			</data>
 			<key>hash2</key>
 			<data>
 			pAVskCxTdZ/N1luuCAaBPxKr7qUhIC6ikPkjDQ2ui48=

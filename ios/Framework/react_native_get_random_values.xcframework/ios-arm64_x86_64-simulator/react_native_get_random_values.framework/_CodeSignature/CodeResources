@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RNGetRandomValues.h</key>
 		<data>
-		QANtULSGS1zIfIyu03KWWhUV5Oo=
+		Ki1DzFZJij7I852r5t586PD7EAg=
 		</data>
 		<key>Headers/react-native-get-random-values-umbrella.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lAuPjsCspmeS2qCQIYVgOSHK0HA=
+		ItcngRRmcg5qcOnbpgGABHWtXyw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -25,21 +25,13 @@
 	<dict>
 		<key>Headers/RNGetRandomValues.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QANtULSGS1zIfIyu03KWWhUV5Oo=
-			</data>
 			<key>hash2</key>
 			<data>
-			J7QgzWrSolF2YQDsuIiRg7sjBGIPeTbaSQRh+y/Xq7Q=
+			nCCyiXM7EloetNQz8cvskslDRTN9hTfe7Ommmvpss3Y=
 			</data>
 		</dict>
 		<key>Headers/react-native-get-random-values-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9OUo7Y+oQwRm1mCfJmLI+wjdGfo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BiB7E0XB6SapjXw8KnBguzXGe8DSoS8SSCYyBLGjSCo=
@@ -47,10 +39,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KdlAanI1iQZPfiORqZxsNjdM6Qw=
-			</data>
 			<key>hash2</key>
 			<data>
 			adiokqR0k3TCDyACazYZMRXfRG6y0jWjjeldtZhkHc8=

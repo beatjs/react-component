@@ -8,65 +8,45 @@
 		<data>
 		WxTMHDuLhyz6PTV7cjdAylXJDKk=
 		</data>
+		<key>Headers/RCTConvert+Lottie.h</key>
+		<data>
+		fWZvoVbUevrf0Hxf+tKrQKOTQb4=
+		</data>
 		<key>Headers/lottie-react-native-umbrella.h</key>
 		<data>
-		ODNKeAuwp2qv3bUYT4Rj26sZcL8=
+		yiExSnWdrkgHWKLILgpUohmwSeY=
 		</data>
 		<key>Headers/lottie_react_native-Swift.h</key>
 		<data>
-		zpIAgYa+jAzf6MaRBi1Yik4czEc=
+		4wuFslzH/HAeHDpdLfHf34ZMjxY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mSEfE1IKgKZYXcD92QSQwoJVONA=
+		RAhlUBRTn0Qdklq5QBQIamYKPwE=
 		</data>
 		<key>Modules/lottie_react_native.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Ej1RoZxfK6Qx8+ED/UoovzcKYzI=
-		</data>
-		<key>Modules/lottie_react_native.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		Ej1RoZxfK6Qx8+ED/UoovzcKYzI=
+		W4NRsXbKE00ZMUi6JREBzvMaRoE=
 		</data>
 		<key>Modules/lottie_react_native.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		OAlDfTGZ9x+aYbu5UpafImjHAn8=
-		</data>
-		<key>Modules/lottie_react_native.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		OAlDfTGZ9x+aYbu5UpafImjHAn8=
+		oGKsp2z2LePW/4RZ7ueZXIxM8HI=
 		</data>
 		<key>Modules/lottie_react_native.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xxm3vFntKAL+Y2j1j8/y3dZt01Y=
+		MNXFgYLXadDWnyiR81RZ9XcRsmc=
 		</data>
 		<key>Modules/lottie_react_native.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		T8Caa+6w/QwBF+++qU3HvdAdy+Y=
-		</data>
-		<key>Modules/lottie_react_native.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		xxm3vFntKAL+Y2j1j8/y3dZt01Y=
-		</data>
-		<key>Modules/lottie_react_native.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		T8Caa+6w/QwBF+++qU3HvdAdy+Y=
+		QNWRCDX42+RilMUEEqFD7i/lyLk=
 		</data>
 		<key>Modules/lottie_react_native.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		MUb4o6Ks0iUzs/MQ3LUs0KSy5QY=
+		O1NOqO/qM6SwX6ePz0+4Kx6fTcM=
 		</data>
 		<key>Modules/lottie_react_native.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GwrsNUZB0Onkagx3D8AVnu8L3Gc=
-		</data>
-		<key>Modules/lottie_react_native.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		MUb4o6Ks0iUzs/MQ3LUs0KSy5QY=
-		</data>
-		<key>Modules/lottie_react_native.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		GwrsNUZB0Onkagx3D8AVnu8L3Gc=
+		FTf6X5TYdOKTJjM8apLpup94HZI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,175 +57,76 @@
 	<dict>
 		<key>Headers/Bridging.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WxTMHDuLhyz6PTV7cjdAylXJDKk=
-			</data>
 			<key>hash2</key>
 			<data>
 			GXtzivPCYLccnDFKYRkuNHAVhqMXve8JhsRqspnFHK0=
 			</data>
 		</dict>
-		<key>Headers/lottie-react-native-umbrella.h</key>
+		<key>Headers/RCTConvert+Lottie.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ODNKeAuwp2qv3bUYT4Rj26sZcL8=
-			</data>
 			<key>hash2</key>
 			<data>
-			yJ4FHlHIOEB8af37JoWd/k7MDDMCrUclyMC3terMcP0=
+			tO4UierD4vOFFHyftaKvtGv1+brpmVhPkLPVUqpJZ4I=
+			</data>
+		</dict>
+		<key>Headers/lottie-react-native-umbrella.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WxN1eES3gO46cvha7apLMd1M2uEcT9hyBWhCo4byj7w=
 			</data>
 		</dict>
 		<key>Headers/lottie_react_native-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zpIAgYa+jAzf6MaRBi1Yik4czEc=
-			</data>
 			<key>hash2</key>
 			<data>
-			Rpng1n7COa8fpLbu/WecqokmAhQ+0g+dDNhNn4VdPhg=
+			pmBY+rES3kwEIWzD0iWpOgOr2OuOdgrvSaJ+zmHpWg0=
 			</data>
 		</dict>
 		<key>Modules/lottie_react_native.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ej1RoZxfK6Qx8+ED/UoovzcKYzI=
-			</data>
 			<key>hash2</key>
 			<data>
-			nOOvuoP4xXeEBvm1zeQgWZwEvCIfA/BLeC1r4h9CkEs=
-			</data>
-		</dict>
-		<key>Modules/lottie_react_native.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ej1RoZxfK6Qx8+ED/UoovzcKYzI=
-			</data>
-			<key>hash2</key>
-			<data>
-			nOOvuoP4xXeEBvm1zeQgWZwEvCIfA/BLeC1r4h9CkEs=
+			fXyApsWXcx6R93x+Ggi/IRq2DrhjbMtN1gp5IPZ8hfw=
 			</data>
 		</dict>
 		<key>Modules/lottie_react_native.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OAlDfTGZ9x+aYbu5UpafImjHAn8=
-			</data>
 			<key>hash2</key>
 			<data>
-			h/ZHBM1Pn3YxrdUIXTGd5DMGx6aVrJRTuUlwuAV1XtI=
-			</data>
-		</dict>
-		<key>Modules/lottie_react_native.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OAlDfTGZ9x+aYbu5UpafImjHAn8=
-			</data>
-			<key>hash2</key>
-			<data>
-			h/ZHBM1Pn3YxrdUIXTGd5DMGx6aVrJRTuUlwuAV1XtI=
+			ewHyK8kYcQbhxgQVhEtRjroyIdTa4XLKGha4Qz84Pmw=
 			</data>
 		</dict>
 		<key>Modules/lottie_react_native.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xxm3vFntKAL+Y2j1j8/y3dZt01Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			fDpdf45ynkdHeGZxtcSat1OusxTrSOCCBP6o6vBkZQo=
+			4Eu/TiRxtVP9Pqj8OG1JVPGQ5bsQpX00kGnU4BMBu6A=
 			</data>
 		</dict>
 		<key>Modules/lottie_react_native.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T8Caa+6w/QwBF+++qU3HvdAdy+Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			hstGivcaU/jdNRazYlrCqud2mtLPh0n18GFvtVOjK0c=
-			</data>
-		</dict>
-		<key>Modules/lottie_react_native.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xxm3vFntKAL+Y2j1j8/y3dZt01Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			fDpdf45ynkdHeGZxtcSat1OusxTrSOCCBP6o6vBkZQo=
-			</data>
-		</dict>
-		<key>Modules/lottie_react_native.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			T8Caa+6w/QwBF+++qU3HvdAdy+Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			hstGivcaU/jdNRazYlrCqud2mtLPh0n18GFvtVOjK0c=
+			YmGP/+wbOkFgNSIYpAgwGwprlJgNkpApzFOserDKvqo=
 			</data>
 		</dict>
 		<key>Modules/lottie_react_native.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MUb4o6Ks0iUzs/MQ3LUs0KSy5QY=
-			</data>
 			<key>hash2</key>
 			<data>
-			CLNEWVFWE3iupTvT6KH89EPHziIy7qPRJ0jFpu9Y/8E=
+			QB7shGHabwCmBkzOb9ZrDuBwzThs26PMAnjXW51Poy8=
 			</data>
 		</dict>
 		<key>Modules/lottie_react_native.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GwrsNUZB0Onkagx3D8AVnu8L3Gc=
-			</data>
 			<key>hash2</key>
 			<data>
-			2z7L1OdutZloC9dYoQLTRE5iIYg3YwsmQQcqC5jtyXQ=
-			</data>
-		</dict>
-		<key>Modules/lottie_react_native.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MUb4o6Ks0iUzs/MQ3LUs0KSy5QY=
-			</data>
-			<key>hash2</key>
-			<data>
-			CLNEWVFWE3iupTvT6KH89EPHziIy7qPRJ0jFpu9Y/8E=
-			</data>
-		</dict>
-		<key>Modules/lottie_react_native.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GwrsNUZB0Onkagx3D8AVnu8L3Gc=
-			</data>
-			<key>hash2</key>
-			<data>
-			2z7L1OdutZloC9dYoQLTRE5iIYg3YwsmQQcqC5jtyXQ=
+			tLziNtaEPVI/39qibygqMFSBWXtlHEIjVeBReMIIx90=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			czZ1RzL+kuOQvSxKcD0DOW4vag4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ad3TWeyb1BLFPOGwrqZVJq89jE8eQl9crwqv3V6HaXM=

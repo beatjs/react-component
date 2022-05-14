@@ -10,10 +10,11 @@
 #endif
 #endif
 
-#import "RCTView+SafeAreaCompat.h"
+#import "RNCSafeAreaContext.h"
 #import "RNCSafeAreaProvider.h"
 #import "RNCSafeAreaProviderManager.h"
 #import "RNCSafeAreaShadowView.h"
+#import "RNCSafeAreaUtils.h"
 #import "RNCSafeAreaView.h"
 #import "RNCSafeAreaViewEdges.h"
 #import "RNCSafeAreaViewLocalData.h"

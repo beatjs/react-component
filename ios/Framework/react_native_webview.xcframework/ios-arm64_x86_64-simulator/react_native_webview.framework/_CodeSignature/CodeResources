@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/RNCWebView.h</key>
 		<data>
-		2KIOj8+jAdvQoDA0ZHMTI27DmLc=
+		Mvw9RFy+pEOU1Q+rWCl4FdVULpk=
 		</data>
 		<key>Headers/RNCWebViewManager.h</key>
 		<data>
-		yPCr20BmQUvnwAgKC5lppIwI3SQ=
+		BJJ5GaC8tcRmh3ffqmII0FkCPwc=
 		</data>
 		<key>Headers/react-native-webview-umbrella.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3tD8IaeCwiubuxLsmCB6WxfmHAE=
+		ChWx4mjRJgYCgnoddzpdMFeMLT0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -33,10 +33,6 @@
 	<dict>
 		<key>Headers/RNCWKProcessPoolManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sQf06ZsAfWSgiVnnWSH+9ONRaGw=
-			</data>
 			<key>hash2</key>
 			<data>
 			+swUT1K2ncMWxxvRtWqFJHK6gOI7tzpZw9ioLZc4Utg=
@@ -44,32 +40,20 @@
 		</dict>
 		<key>Headers/RNCWebView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2KIOj8+jAdvQoDA0ZHMTI27DmLc=
-			</data>
 			<key>hash2</key>
 			<data>
-			UmR+J1WleqIKsbxMF6obDzT5XZgVAMJfT1rRr9KhfRI=
+			m0MOlmKN7IAEHR0TjwWw6OjLsSgLcCa7AD0EzIwYyUw=
 			</data>
 		</dict>
 		<key>Headers/RNCWebViewManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yPCr20BmQUvnwAgKC5lppIwI3SQ=
-			</data>
 			<key>hash2</key>
 			<data>
-			1O7quld2F0rI+OLjLBh3Oayqpgi4vAvz+qRKlZVxIdE=
+			ELtUJKZ8sPa7pL3I+Vlu5POzBBdEEEwFaucVOAlvTCs=
 			</data>
 		</dict>
 		<key>Headers/react-native-webview-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4LEuVNOoadb5fJEMsuagduckSM8=
-			</data>
 			<key>hash2</key>
 			<data>
 			gH5pRVanEaHBVplH/x91Z5of22Ted5S1G0qi6UKT+UY=
@@ -77,10 +61,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xb4Y0daUNmevHFfTcPO9C7KSq1k=
-			</data>
 			<key>hash2</key>
 			<data>
 			v5kRMxJ35mRMPulqT+stDVRvzOX393iIWkpGDld0cCA=

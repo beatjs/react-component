@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2dWHU3DuZrCtSs3+5JNyaUJXNu0=
+		8iQwN32j2Tv/ySOAVugFFBjRV3g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -41,10 +41,6 @@
 	<dict>
 		<key>Headers/BlurEffectWithAmount.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FVvJsvcCjcKzRchHPdASEqjOSUs=
-			</data>
 			<key>hash2</key>
 			<data>
 			+6tSjXsa92FZqnBnov2h6pHVvzrue0BdpKF9Y/5EZQo=
@@ -52,10 +48,6 @@
 		</dict>
 		<key>Headers/BlurView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p6Dk96bIonJB7Ceq10ZFJGxj+qA=
-			</data>
 			<key>hash2</key>
 			<data>
 			lJKs5Ze9qmdM9uk/lRuKWyWpgi+lwlntHaSf+t9leqg=
@@ -63,10 +55,6 @@
 		</dict>
 		<key>Headers/BlurViewManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dbHsptOeM0+bZeYBu2yasSockZk=
-			</data>
 			<key>hash2</key>
 			<data>
 			uEHpP8SZFQkEEh4Ld0duAE62UAaQVIcn5Dl7ppzzaa8=
@@ -74,10 +62,6 @@
 		</dict>
 		<key>Headers/VibrancyView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E4H5Pdbq9XAO8Sv7Ds4OuRkwvCQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			o3o55ThoeZwf1lWolGL6T4ajjoEsnjT8DLxmci5HTIQ=
@@ -85,10 +69,6 @@
 		</dict>
 		<key>Headers/VibrancyViewManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mz45VbeYQX22HKP+2PahK/LW/cU=
-			</data>
 			<key>hash2</key>
 			<data>
 			8I7eiaB0VarvFLEvWg1+Sc7yzKuO9QdUFKJeItLtgSU=
@@ -96,10 +76,6 @@
 		</dict>
 		<key>Headers/react-native-blur-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OZ7fOwmHo3Cysy0YvLmMYN5jmRc=
-			</data>
 			<key>hash2</key>
 			<data>
 			IRQPxCCZKkJotA9QgsxNM5yNTIgZ5dxYxdUroGhMU5E=
@@ -107,10 +83,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mMnGnPo+RqiC9wBsLYNw5G6LSFk=
-			</data>
 			<key>hash2</key>
 			<data>
 			UE8Xk/TCVBl0Cz4fWWY1jiigtMZoJVtv1rR+jduyw4U=

@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5z2Quf5t5J71fkdg7yErRSmnJTA=
+		6NGRvViAL9aYj9BnocBWuCtpMGA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,10 +29,6 @@
 	<dict>
 		<key>Headers/RNCMaskedView-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yDtYmheXDqoWNUpufuWc5Xx0D6E=
-			</data>
 			<key>hash2</key>
 			<data>
 			PUwYn6lx/UN6z+/GNf7Ijw6n5Gom1E9gcL8ZTuVnr/g=
@@ -40,10 +36,6 @@
 		</dict>
 		<key>Headers/RNCMaskedView.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GUQFlKx0dunbj6BNjoT1djLNrmA=
-			</data>
 			<key>hash2</key>
 			<data>
 			JrkxfVWpbtHQEGpQFrEocXXwfi7wZxw7/zHB27heneY=
@@ -51,10 +43,6 @@
 		</dict>
 		<key>Headers/RNCMaskedViewManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tgCFttafubSZecf0t8aECDl/sv4=
-			</data>
 			<key>hash2</key>
 			<data>
 			ppeHsLlv4BvQAJfqrP1CGQSGyQWlwM3cmE48ZKsQ9Ps=
@@ -62,10 +50,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			acyEGvddxuCNhR33zejP8eyqUts=
-			</data>
 			<key>hash2</key>
 			<data>
 			CbTj17pW9Fe8oVrKRzRfg7lYdRhzhQKG0HsEBDKaJbo=

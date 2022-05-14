@@ -1,31 +1,35 @@
 PODS:
   - DVAssetLoaderDelegate (0.3.3)
-  - libwebp (1.2.0):
-    - libwebp/demux (= 1.2.0)
-    - libwebp/mux (= 1.2.0)
-    - libwebp/webp (= 1.2.0)
-  - libwebp/demux (1.2.0):
+  - fmt (6.2.1)
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
     - libwebp/webp
-  - libwebp/mux (1.2.0):
+  - libwebp/mux (1.2.1):
     - libwebp/demux
-  - libwebp/webp (1.2.0)
-  - react-component (1.6.0):
-    - DVAssetLoaderDelegate (~> 0.3.1)
-    - react-ios (~> 0.64.2.0)
-    - SDWebImage (~> 5.8)
-    - SDWebImageWebPCoder (~> 0.6.1)
-    - Sentry (~> 7.1.0)
+  - libwebp/webp (1.2.1)
+  - lottie-ios (3.2.3)
+  - react-component (2.0.0):
+    - DVAssetLoaderDelegate (~> 0.3.3)
+    - lottie-ios (~> 3.2.3)
+    - react-ios (~> 0.67.4.5)
+    - SDWebImage (~> 5.11.1)
+    - SDWebImageWebPCoder (~> 0.8.4)
+    - Sentry (~> 7.11.0)
     - SPTPersistentCache (~> 1.1.0)
-  - react-ios (0.64.2.0)
+  - react-ios (0.67.4.5):
+    - fmt (~> 6.2.1)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - SDWebImageWebPCoder (0.6.1):
+  - SDWebImageWebPCoder (0.8.4):
     - libwebp (~> 1.0)
-    - SDWebImage/Core (~> 5.7)
-  - Sentry (7.1.4):
-    - Sentry/Core (= 7.1.4)
-  - Sentry/Core (7.1.4)
+    - SDWebImage/Core (~> 5.10)
+  - Sentry (7.11.0):
+    - Sentry/Core (= 7.11.0)
+  - Sentry/Core (7.11.0)
   - SPTPersistentCache (1.1.0)
 
 DEPENDENCIES:
@@ -34,7 +38,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - DVAssetLoaderDelegate
+    - fmt
     - libwebp
+    - lottie-ios
     - react-ios
     - SDWebImage
     - SDWebImageWebPCoder
@@ -47,12 +53,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DVAssetLoaderDelegate: 0caec20e4e08b8560b691131539e9180024d4bce
-  libwebp: e90b9c01d99205d03b6bb8f2c8c415e5a4ef66f0
-  react-component: 2a361e26acd0422684d7418e50c2d196a7087494
-  react-ios: 5e65925a73f67355a197c4ab92dddc22be9c341c
+  fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  react-component: 8a624bc87271c5870c19751a4144f2a13215c44f
+  react-ios: 4e53979029294cc7416b6e6ba29fafb0468e1011
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
-  Sentry: 1d3eb1a25f8c5333c88dd5603904a6d461cd9fcf
+  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+  Sentry: 0c5cd63d714187b4a39c331c1f0eb04ba7868341
   SPTPersistentCache: df36ea46762d7cf026502bbb86a8b79d0080dff4
 
 PODFILE CHECKSUM: 8031266fb0972bd2b31ac1a2d4174264b8786a45
