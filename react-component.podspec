@@ -33,21 +33,12 @@ Pod::Spec.new do |s|
     'ios/Framework/RNReanimated.xcframework',
     'ios/Framework/RNScreens.xcframework',
     'ios/Framework/RNSentry.xcframework',
-<<<<<<< HEAD
-    'ios/Framework/RNSVG.xcframework',
-    'ios/Framework/RNVectorIcons.xcframework'
-  s.dependency 'react-ios', '~> 0.67.4.5'
-  s.dependency 'Sentry', '~> 7.1.0'
-  s.dependency 'SDWebImage', '~> 5.8'
-  s.dependency 'SDWebImageWebPCoder', '~> 0.6.1'
-=======
     'ios/Framework/RNSVG.xcframework'
-  s.dependency 'react-ios', '~> 0.67.4.5'
+  s.dependency 'react-ios', '~> 0.64.2.0'
   s.dependency 'lottie-ios', '~> 3.2.3'
   s.dependency 'Sentry', '~> 7.11.0'
   s.dependency 'SDWebImage', '~> 5.11.1'
   s.dependency 'SDWebImageWebPCoder', '~> 0.8.4'
->>>>>>> f7475ea0779e27011544b30da5666d5abd7c90f6
   s.dependency 'SPTPersistentCache', '~> 1.1.0'
   s.dependency 'DVAssetLoaderDelegate', '~> 0.3.3'
   
