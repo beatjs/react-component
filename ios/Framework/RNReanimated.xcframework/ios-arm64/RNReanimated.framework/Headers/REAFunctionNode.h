@@ -1,6 +1,7 @@
 
-#import <RNReanimated/REANode.h>
+#import "REANode.h"
 
 @interface REAFunctionNode : REANode
 
 @end
+

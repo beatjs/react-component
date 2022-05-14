@@ -1,4 +1,5 @@
-#import <RNReanimated/REANode.h>
+#import "REANode.h"
+
 #import <React/RCTEventDispatcher.h>
 
 @interface REAEventNode : REANode

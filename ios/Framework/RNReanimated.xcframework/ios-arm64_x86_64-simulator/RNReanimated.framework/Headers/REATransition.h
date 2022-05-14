@@ -1,8 +1,9 @@
-#import <QuartzCore/QuartzCore.h>
-#import <RNReanimated/REATransitionAnimation.h>
-#import <RNReanimated/REATransitionValues.h>
-#import <React/RCTView.h>
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+#import <React/RCTView.h>
+
+#import "REATransitionAnimation.h"
+#import "REATransitionValues.h"
 
 // TODO: fix below implementation
 #define IS_LAYOUT_ONLY(view) ([view isKindOfClass:[RCTView class]] && view.backgroundColor == nil)
@@ -52,13 +53,12 @@ typedef NS_ENUM(NSInteger, REATransitionPropagationType) {
 - (void)playInRoot:(UIView *)root;
 - (REATransitionValues *)findStartValuesForKey:(NSNumber *)key;
 - (REATransitionValues *)findEndValuesForKey:(NSNumber *)key;
-- (REATransitionAnimation *)animationForTransitioning:(REATransitionValues *)startValues
-                                            endValues:(REATransitionValues *)endValues
-                                              forRoot:(UIView *)root;
-- (NSArray<REATransitionAnimation *> *)
-    animationsForTransitioning:(NSMutableDictionary<NSNumber *, REATransitionValues *> *)startValues
-                     endValues:(NSMutableDictionary<NSNumber *, REATransitionValues *> *)endValues
-                       forRoot:(UIView *)root;
+- (REATransitionAnimation *)animationForTransitioning:(REATransitionValues*)startValues
+                                               endValues:(REATransitionValues*)endValues
+                                                 forRoot:(UIView *)root;
+- (NSArray<REATransitionAnimation*> *)animationsForTransitioning:(NSMutableDictionary<NSNumber*, REATransitionValues*> *)startValues
+                                                          endValues:(NSMutableDictionary<NSNumber*, REATransitionValues*> *)endValues
+                                                            forRoot:(UIView *)root;
 
 + (REATransition *)inflate:(NSDictionary *)config;
 @end
