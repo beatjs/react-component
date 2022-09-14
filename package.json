@@ -1,7 +1,7 @@
 {
   "name": "react-component",
   "title": "React Component",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "Tool to create a React Native library with a command-line interface",
   "main": "index.js",
   "scripts": {
@@ -26,10 +26,10 @@
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "16.13.1",
-    "react-native": "^0.63.4"
+    "react-native": "^0.67.4"
   },
   "devDependencies": {
     "react": "16.13.1",
-    "react-native": "^0.63.4"
+    "react-native": "^0.67.4"
   }
 }
